@@ -86,6 +86,17 @@
 
   window.addEventListener("resize", resizeFunc);
 
+
+// Event Listener To Remove Line From Floating in Air When Leaving Dropdown Box - START
+
+document.querySelector(".mynav").addEventListener("mouseleave", function() {
+  target.removeAttribute("style");
+})
+  
+// Event Listener To Remove Line From Floating in Air When Leaving Dropdown Box - END
+
+
+
 })();
 
 
