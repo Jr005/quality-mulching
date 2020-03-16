@@ -283,41 +283,59 @@ display: grid;
 
 
 
-/* Add a black background color to the top navigation */
-.topnav {
+  /* ================================ STICKY ========================*/
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .swiper-container {
+    padding-top: 60px;
+  }
+ */
+
+
+.bottomnav {
     background-color: white;
     overflow: hidden;
     padding: 1rem;
-
+    z-index: 1200;
   }
 
 
-  #myTopnav .items {
+  #mybottomnav .items {
       display: flex;
       justify-content: space-between;
       align-items: center;
   }
   
 
-  #myTopnav .items .item .mynav ul{
+  #mybottomnav .items .item .mynav ul{
       display: flex;
       align-items: center;
   }
   
 
-  #myTopnav .items .item .mynav ul li{
+  #mybottomnav .items .item .mynav ul li{
       display: flex;
       align-items: center;
   }
   
 
-  #myTopnav .items .item .mynav ul li:nth-child(4){
+  #mybottomnav .items .item .mynav ul li:nth-child(4){
       margin-left: .5rem;
       /* background-color: red; */
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .bottomnav a {
     /* float: left;
     display: block; */
     color: rgb(94,94,94);
@@ -339,8 +357,8 @@ display: grid;
    }  */
   
 
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+  /* Hide the link that should open and close the bottomnav on small screens */
+  .bottomnav .icon {
     display: none;
   }
   
@@ -352,12 +370,12 @@ display: grid;
     overflow: hidden;
   }
   
-  /* Style the dropdown button to fit inside the topnav */
+  /* Style the dropdown button to fit inside the bottomnav */
   .dropdown .dropbtn {
     font-size: 17px;
     border: none;
     outline: none;
-    color: rgb(94,94,94);
+    /* color: rgb(94,94,94); */
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -392,8 +410,8 @@ display: grid;
     text-transform: uppercase;
   }
   
-  /* Add a dark background on topnav links and the dropdown button on hover */
-  .topnav a:hover, .dropdown:hover .dropbtn {
+  /* Add a dark background on bottomnav links and the dropdown button on hover */
+  .bottomnav a:hover, .dropdown:hover .dropbtn {
     /* background-color: red; */
     color: black;
     
@@ -417,7 +435,7 @@ display: grid;
   
   /* SEARCH ICONS */
 
-  #myTopnav .items .item .fa-search{
+  #mybottomnav .items .item .fa-search{
       font-size: 1.25rem;
       color: #363636;
   }

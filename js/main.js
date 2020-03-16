@@ -31,14 +31,17 @@
 
 
 
-// MENU HOVER UNDERLINE EFFECT
+// ============= MENU HOVER UNDERLINE EFFECT - START =================
 
+
+//  Menu Underline Function - START
 
 (function() {
 
   const target = document.querySelector(".target");
   const links = document.querySelectorAll(".mynav a");
-  const colors = ["deepskyblue", "orange", "firebrick", "gold", "magenta", "black", "darkblue"];
+  const colors = ["#f7c51e"];
+  // const colors = ["deepskyblue", "orange", "firebrick", "gold", "magenta", "black", "darkblue"];
 
   function mouseenterFunc() {
     if (!this.parentNode.classList.contains("active")) {
@@ -46,7 +49,7 @@
         if (links[i].parentNode.classList.contains("active")) {
           links[i].parentNode.classList.remove("active");
         }
-        links[i].style.opacity = "0.25";
+        // links[i].style.opacity = "0.25";
       }
 
       this.parentNode.classList.add("active");
@@ -95,17 +98,45 @@ document.querySelector(".mynav").addEventListener("mouseleave", function() {
   
 // Event Listener To Remove Line From Floating in Air When Leaving Dropdown Box - END
 
-
-
 })();
 
+// Menu Function END
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
+// ============= MENU HOVER UNDERLINE EFFECT - END =================
+
+
+
+/* Toggle between adding and removing the "responsive" class to bottomnav when the user clicks on the icon */
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    var x = document.getElementById("mybottomnav");
+    if (x.className === "bottomnav") {
       x.className += " responsive";
     } else {
-      x.className = "topnav";
+      x.className = "bottomnav";
     }
   }
+
+
+
+
+// ============= WHITE NAVBAR STICKY =================
+
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stickyFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("mybottomnav");
+
+// Get the offset position of the navbar
+var sticky = mybottomnav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyFunction() {
+  if (window.pageYOffset >= sticky) {
+    mybottomnav.classList.add("sticky")
+  } else {
+    mybottomnav.classList.remove("sticky");
+  }
+}
