@@ -389,7 +389,7 @@ display: grid;
   /* Style the dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f7c51e;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

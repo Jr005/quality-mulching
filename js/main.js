@@ -1,36 +1,6 @@
 
 
 
-
-
-// WHITE MENU MOVE TO MIDDLE
-
-// const nav = document.querySelector(".header-menu_wrap");
-// const topOfNav = nav.offsetTop;
-
-
-// function fixNav() {
-//     console.log('topOfNav = ' + topOfNav);
-//     console.log('scrollY = ' + window.scrollY);
-//     if (window.scrollY >= (topOfNav)) {
-//         console.log(-(topOfNav) + 'px');
-//         document.getElementsByClassName("fixed-nav")[0].style.position = "fixed";
-//         document.body.style.marginTop = -(topOfNav) + 'px';
-//         document.getElementById("main-menu").classList.add("menu-center");
-
-//     } else {
-//         document.getElementsByClassName("fixed-nav")[0].style.position = "relative";
-//         document.body.style.marginTop = 0;
-//         document.getElementById("main-menu").classList.remove("menu-center");
-
-//     }
-
-// }
-
-// window.addEventListener('scroll', fixNav);
-
-
-
 // ============= MENU HOVER UNDERLINE EFFECT - START =================
 
 
@@ -140,3 +110,21 @@ function stickyFunction() {
     mybottomnav.classList.remove("sticky");
   }
 }
+
+
+// Fixed White Navbar Sticky Dropdown To Work on Mobile.
+
+
+function fixed_top_menu() {
+  var windows = $(window);
+  windows.on("scroll", function () {
+      var header_height = $(".bottomnav").height();
+      var scrollTop = windows.scrollTop();
+      if (scrollTop > header_height) {
+          $(".bottomnav").addClass("sticky");
+      } else {
+          $(".bottomnav").removeClass("sticky");
+      }
+  });
+}
+fixed_top_menu();
