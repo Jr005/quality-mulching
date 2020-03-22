@@ -213,7 +213,86 @@
   @media screen and (max-width: 600px) {
 
 
-   /*  ================== Top Black Bar ============= */
+
+   .py-2 {
+      padding: 1rem 0;
+  }
+
+
+
+   
+   /* ================ TOP BLACK MENU NAVBAR - START ============ */
+
+
+   
+
+   #masthead .header-container .header-container_wrap .items .quality-logo {
+      margin: auto;
+      margin-bottom: 1rem;
+   }
+
+
+   #masthead .header-container .header-container_wrap .items .quality-logo p {
+      font-size: 10px;
+  }
+
+  #masthead .header-container .header-container_wrap .items .contact-info {
+   display: flex;
+   flex-direction: column;
+}
+
+  #masthead .header-container .header-container_wrap  {
+   padding: 2rem;
+}
+
+  #masthead .header-container .header-container_wrap .items .item {
+   margin-bottom: .5rem;
+   margin-right: 0;
+}
+
+  #masthead .header-container .header-container_wrap .items .item:nth-child(4)  {
+   margin-bottom: 0rem;
+   margin-right: 0;
+}
+
+
+
+  #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap  {
+   margin-bottom: 0rem;
+}
+
+  #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap p {
+   line-height: .75rem;
+}
+
+/* White Menu Bar */
+
+#masthead .header-container .fixed-nav {
+   margin-top: -40px;
+}
+
+/* Facebook */
+
+#masthead .header-container .header-container_wrap .items .item .facebook-like {
+   text-align: center;
+   /* align-self: center; */
+   margin: auto;
+}
+
+.l-heading {
+   font-weight: bold;
+   font-size: 2rem;
+   margin-bottom: 0.75rem;
+   line-height: 1.1;
+}
+
+
+.m-heading {
+   font-weight: bold;
+   font-size: 1rem;
+   margin-bottom: 0.75rem;
+   line-height: 1.1;
+}
 
 
    /* ================ WHITE MENU NAVBAR DROPDOWN - START ============ */
@@ -226,16 +305,20 @@
    display: none;
 }
 
+   
+
+
 
    .bottomnav  {
       display: flex;
       justify-content: center;
+      padding: 0rem;
       
    }
 
    .bottomnav .hamburger {
       display: flex;
-      margin-bottom: 2rem;
+      /* margin-bottom: 2rem; */
       /* justify-content: flex-start; */
    }
    
@@ -317,6 +400,7 @@
 .bottomnav.responsive .container .items .item  .mynav .hamburger  {
    display: flex;
   justify-content: center;
+  margin-bottom: 2.5rem;
 }
 
 .bottomnav.responsive .container .items .item  .mynav ul  {
@@ -347,73 +431,27 @@
 
 
 
-   #masthead .header-container .header-container_wrap .items .quality-logo {
-      margin: auto;
-      margin-bottom: 1rem;
-   }
+   /* ============================ SWIPER ======================= */
 
-
-   #masthead .header-container .header-container_wrap .items .quality-logo p {
-      font-size: 10px;
-  }
-
-  #masthead .header-container .header-container_wrap .items .contact-info {
-   display: flex;
-   flex-direction: column;
-}
-
-  #masthead .header-container .header-container_wrap  {
-   padding: 2rem;
-}
-
-  #masthead .header-container .header-container_wrap .items .item {
-   margin-bottom: .5rem;
-   margin-right: 0;
-}
-
-
-
-  #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap  {
-   margin-bottom: 0rem;
-}
-
-  #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap p {
-   line-height: .75rem;
-}
-
-/* White Menu Bar */
-
-#masthead .header-container .fixed-nav {
-   margin-top: -40px;
-}
-
-/* Facebook */
-
-#masthead .header-container .header-container_wrap .items .item .facebook-like {
-   text-align: center;
-   /* align-self: center; */
-   margin: auto;
-}
-
-.l-heading {
-   font-weight: bold;
-   font-size: 2rem;
-   margin-bottom: 0.75rem;
-   line-height: 1.1;
-}
-
-
-.m-heading {
-   font-weight: bold;
-   font-size: 1rem;
-   margin-bottom: 0.75rem;
-   line-height: 1.1;
-}
 
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
    font-size: 2rem;
 }
 
+
+   /* ============================ CONTACT SERVICES ======================= */
+
+   #contact-services .container .text-center {
+      margin-bottom: 2.5rem;
+  }
+  
+
+  /* OUR PROJECTS */
+
+  #our-projects {
+     margin-bottom: 10rem;
+
+  }
 
 
   }
