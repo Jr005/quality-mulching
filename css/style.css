@@ -120,6 +120,11 @@ display: grid;
     color: black;
 }
 
+.bg-black {
+    background:black;
+    color: white;
+}
+
 
 .l-heading {
     font-weight: bold;
@@ -517,8 +522,12 @@ display: grid;
 
 /* Our Projects */
 
-#our-projects .container .lead {
-    margin-bottom: 3rem;
+
+
+
+#our-projects .container .text-center {
+
+    margin-bottom: 4rem;
 }
 
 
@@ -530,3 +539,82 @@ display: grid;
 
     border: 4px solid black;
 }
+
+
+
+/*  =============== FOOTER - (BOTTOM BLACK) ============= */
+
+
+.wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+
+
+#main-footer  .items {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#main-footer  .items .item{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    max-width: 250px;
+    color: white;
+
+}
+ 
+
+#main-footer  .items .item .email a{
+    color: #f7c51e;
+    text-decoration: none;
+}
+ 
+
+#main-footer  .items .item .email a{
+    color: #f7c51e;
+    text-decoration: none;
+}
+ 
+
+#main-footer  .items .item .phone-number {
+    display: flex;
+    align-items: center;
+}
+ 
+#main-footer  .items .item .phone-number i{
+    margin-right: .25rem;
+    
+}
+ 
+#main-footer  .items .item .phone-number a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+ 
+#main-footer  .items .item .facebook-like {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+ 
+#main-footer  .items .item .facebook-like h3{
+    margin-bottom: .25rem;
+}
+ 
+#main-footer  .items .item .facebook-like i{
+    color: #f7c51e;
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-self: center;
+}
+ 
+ 
+#main-footer .container .items .item:first-of-type p{
+    color: #363636;
+
+} 
