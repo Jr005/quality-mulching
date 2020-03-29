@@ -70,7 +70,6 @@ document.querySelector(".mynav").addEventListener("mouseleave", function() {
 
 })();
 
-// Menu Function END
 
 
 // ============= MENU HOVER UNDERLINE EFFECT - END =================
