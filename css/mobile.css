@@ -354,12 +354,6 @@
    }
 
 
-   .bottomnav.responsive .sticky {
-      position: fixed;
-      top: 0;
-      width: 100%;
-   }
-
 
    /* Fix Bottomnav Sticky To Stick To Top After Dropdown Is Open */
 

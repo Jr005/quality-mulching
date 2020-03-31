@@ -75,16 +75,30 @@ document.querySelector(".mynav").addEventListener("mouseleave", function() {
 // ============= MENU HOVER UNDERLINE EFFECT - END =================
 
 
+// ============= Add "Responsive" Class  When Click On "Menu Click Here" Hamburger - Menu Dropdown =================
 
-/* Toggle between adding and removing the "responsive" class to bottomnav when the user clicks on the icon */
+
 function myFunction() {
-    var x = document.getElementById("mybottomnav");
-    if (x.className === "bottomnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "bottomnav";
-    }
+  var x = document.getElementById("mybottomnav");
+  if(x.classList.contains("responsive")) {
+    x.classList.remove("responsive");
+  } else {
+    x.classList.add("responsive");
   }
+}
+
+
+
+
+// // This code has an error - It removes the sticky in mobile view
+// function myFunction() {
+//     var x = document.getElementById("mybottomnav");
+//     if (x.className === "bottomnav") {
+//       x.className += " responsive";
+//     } else {
+//       x.className = "bottomnav";
+//     }
+//   }
 
 
 
@@ -114,16 +128,16 @@ function stickyFunction() {
 // Fixed White Navbar Sticky Dropdown To Work on Mobile.
 
 
-function fixed_top_menu() {
-  var windows = $(window);
-  windows.on("scroll", function () {
-      var header_height = $(".bottomnav").height();
-      var scrollTop = windows.scrollTop();
-      if (scrollTop > header_height) {
-          $(".bottomnav").addClass("sticky");
-      } else {
-          $(".bottomnav").removeClass("sticky");
-      }
-  });
-}
-fixed_top_menu();
+// function fixed_top_menu() {
+//   var windows = $(window);
+//   windows.on("scroll", function () {
+//       var header_height = $(".bottomnav").height();
+//       var scrollTop = windows.scrollTop();
+//       if (scrollTop > header_height) {
+//           $(".bottomnav").addClass("sticky");
+//       } else {
+//           $(".bottomnav").removeClass("sticky");
+//       }
+//   });
+// }
+// fixed_top_menu();
