@@ -101,10 +101,10 @@
    }
    
 
-   #our-projects {
+   /* #our-projects {
       margin-bottom: 2rem;
       
-  }
+  } */
 
    #our-projects .container .lead {
       margin-bottom: 3rem;
@@ -234,6 +234,7 @@
 
    #masthead .header-container .header-container_wrap .items .quality-logo p {
       font-size: 10px;
+      line-height: 1.5;
   }
 
   #masthead .header-container .header-container_wrap .items .contact-info {
@@ -449,10 +450,10 @@
 
   /* OUR PROJECTS */
 
-  #our-projects {
+  /* #our-projects {
      margin-bottom: 10rem;
 
-  }
+  } */
 
 
   
@@ -477,5 +478,15 @@
 }
 
 
+
+  }
+
+
+  
+  @media screen and (max-width: 320px) {
+
+   .btn-black {
+      font-size: 14px;
+   }
 
   }
