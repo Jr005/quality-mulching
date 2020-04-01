@@ -441,6 +441,19 @@
 }
 
 
+   /* ============================ SKID STEER ======================= */
+
+   
+   #skid-steer .container .grid-container .card img {
+
+      width: 80%;
+   }
+
+
+
+
+
+
    /* ============================ CONTACT SERVICES ======================= */
 
    #contact-services .container .text-center {
