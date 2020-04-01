@@ -205,7 +205,7 @@ display: grid;
 
 #masthead .header-container .header-container_wrap .items {
     display: flex;
-
+    justify-content: center;
 }
 
 #masthead .header-container .header-container_wrap .items .contact-info {
