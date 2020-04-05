@@ -3,7 +3,6 @@
 
 // ============= MENU HOVER UNDERLINE EFFECT - START =================
 
-
 //  Menu Underline Function - START
 
 (function() {
@@ -41,7 +40,7 @@
   }
 
   for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", (e) => e.preventDefault());
+    // links[i].addEventListener("click", (e) => e.preventDefault());
     links[i].addEventListener("mouseenter", mouseenterFunc);
   }
 
@@ -70,8 +69,6 @@ document.querySelector(".mynav").addEventListener("mouseleave", function() {
 
 })();
 
-
-
 // ============= MENU HOVER UNDERLINE EFFECT - END =================
 
 
@@ -86,8 +83,6 @@ function myFunction() {
     x.classList.add("responsive");
   }
 }
-
-
 
 
 // // This code has an error - It removes the sticky in mobile view
