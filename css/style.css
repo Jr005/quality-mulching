@@ -10,6 +10,9 @@ background white - #f6f6f6
 
 
 
+
+
+
 * {
     box-sizing: border-box;
     margin: 0; 
@@ -115,6 +118,11 @@ display: grid;
     color: black;
 }
 
+.bg-yellow-white {
+    background: #f7c51e;
+    color: white;
+}
+
 .bg-grey {
     background: #f9f9f9;
     color: black;
@@ -123,6 +131,17 @@ display: grid;
 .bg-black {
     background:black;
     color: white;
+}
+
+
+.circle {
+
+   width: 13rem;
+   height: 13rem;
+   background: #ffd34a; 
+   -moz-border-radius: 50%; 
+   -webkit-border-radius: 50%; 
+   border-radius: 50%;
 }
 
 
@@ -588,9 +607,70 @@ display: grid;
  }
 
  .about-content {
-     background-color: rgba(0, 0, 0, 0.4);
+     background-color: rgba(0, 0, 0, 0.5);
      height: 500px;
  }
+ 
+ #about .about-content  .container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    margin: auto;
+
+ }
+ 
+ #about .about-content  .container h1{
+    /* position: relative; */
+    margin: 20px;
+    display: block;
+    
+ }
+ #about .about-content  .container h1 span {
+    border-bottom: 5px solid #f7c51e;
+    
+ }
+/*  
+ #about .about-content  .container h1 span:after{
+
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: gray;
+    position: absolute;
+    bottom: -4px;
+
+ }
+ */
+ /*  ======================== PROJECS COMPLETED  ======================== */
+
+#projects-completed .container .items {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#projects-completed .container .items .item .circle {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#meet-our-team .container .items {
+
+    display: flex;
+    
+}
+
+
 
 
 
@@ -620,6 +700,9 @@ display: grid;
     color: white;
 
 }
+
+
+
  
 
 #main-footer  .items .item .email a{
