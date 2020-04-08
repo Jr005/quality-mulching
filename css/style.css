@@ -630,22 +630,28 @@ display: grid;
     display: block;
     
  }
+/*  
  #about .about-content  .container h1 span {
     border-bottom: 5px solid #f7c51e;
-    
- }
-/*  
- #about .about-content  .container h1 span:after{
+    width: 20%;
+ } */
 
+ #about .about-content  .container h1 span {
+    position: relative;
+ }
+
+ #about .about-content  .container h1 span::after {
     content: '';
-    width: 60px;
+    width: 40%;
     height: 4px;
-    background: gray;
+    background: #f7c51e;
     position: absolute;
     bottom: -4px;
-
+    left: 0;
  }
- */
+
+
+
  /*  ======================== PROJECS COMPLETED  ======================== */
 
 #projects-completed .container .items {
@@ -664,17 +670,36 @@ display: grid;
     flex-direction: column;
 }
 
+
+ /*  ======================== Meet Our Team  ======================== */
+
+
+
+#meet-our-team .container h1 span {
+
+    position: relative;
+    
+}
+
+#meet-our-team .container h1 span::after {
+
+    content: '';
+    width: 40%;
+    height: 4px;
+    background: #f7c51e;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    
+    
+}
+
+
 #meet-our-team .container .items {
 
     display: flex;
     
 }
-
-
-
-
-
-
 
 
 /*  =============== FOOTER - (BOTTOM BLACK) ============= */
