@@ -690,6 +690,8 @@ display: grid;
     position: absolute;
     bottom: -4px;
     left: 0;
+    right: 0;
+    margin: auto;
     
     
 }
@@ -698,6 +700,12 @@ display: grid;
 #meet-our-team .container .items {
 
     display: flex;
+    
+}
+
+#meet-our-team .container .items .item img {
+
+    border:3px solid #f7c51e;
     
 }
 
