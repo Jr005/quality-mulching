@@ -143,6 +143,11 @@ function stickyFunction() {
 // ================================== ANIMATED COUNTER =======================
 
 
+
+
+
+// 472 px  -  Starts Yellow Counter Section
+
 const counters = document.querySelectorAll('.counter');
 const speed = 200; // The lower the slower
 

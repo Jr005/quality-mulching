@@ -469,6 +469,50 @@
   } */
 
 
+   /* ============================ ABOUT PAGE ======================= */
+   
+   
+   #about .l-heading {
+      font-size: 4rem;
+   }
+   
+   #about .m-heading {
+      font-size: 2rem;
+   }
+   
+   #about .p-3 {
+      padding: 1rem;
+   }
+
+   /* PROJECTS COMPLETED */
+
+   #projects-completed .container .items {
+      padding: 2rem 0;
+   }
+
+   
+#projects-completed .container .items .item .circle .counter {
+
+   font-size: 3rem;
+}
+
+   /* MEET OUR TEAM */
+
+   #meet-our-team .container .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  #meet-our-team .container .items .item img {
+     width: 100%;
+  }
+   
+   
+   /* ============================ MAIN FOOTER - ALL PAGES ======================= */
+
   
 #main-footer  .items {
    display: flex;
@@ -501,5 +545,9 @@
    .btn-black {
       font-size: 14px;
    }
+
+   #about .l-heading {
+      font-size: 3rem;
+  }
 
   }

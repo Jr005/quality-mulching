@@ -598,18 +598,21 @@ display: grid;
 
 
  #about {
+     position: relative;
     background-image: url("/img/-maintenance-right-of-way-row-ROW-easement-easements-electric-electricity-electrical-water-well-hole-ditch-tank-pond-lake-creek-mesquite-clearing-youpon-clearing-concre.png");
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
  }
 
  .about-content {
+     height: 100%;
+     width: 100%;
+     position: absolute;
      background-color: rgba(0, 0, 0, 0.5);
-     height: 500px;
  }
+
  
  #about .about-content  .container{
     display: flex;
@@ -649,10 +652,16 @@ display: grid;
     bottom: -4px;
     left: 0;
  }
+ 
+ .red-block {
+
+    height: 472px;
+    width: 100%;
+    background-color: red;
+ }
 
 
-
- /*  ======================== PROJECS COMPLETED  ======================== */
+ /* PROJECS COMPLETED  ======================== */
 
 #projects-completed .container .items {
 
@@ -670,8 +679,13 @@ display: grid;
     flex-direction: column;
 }
 
+#projects-completed .container .items .item .circle .counter {
 
- /*  ======================== Meet Our Team  ======================== */
+    font-size: 4rem;
+}
+
+
+ /*  Meet Our Team  ======================== */
 
 
 
@@ -708,6 +722,9 @@ display: grid;
     border:3px solid #f7c51e;
     
 }
+
+
+
 
 
 /*  =============== FOOTER - (BOTTOM BLACK) ============= */
