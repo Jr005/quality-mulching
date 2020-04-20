@@ -171,7 +171,16 @@ counters.forEach(counter => {
 		} else {
 			counter.innerText = target;
 		}
-	};
-
-	updateCount();
+  };
+  
+  // Makes function wait until numbers are middle of web page
+  window.addEventListener('scroll', function() {
+    var element = document.getElementById('projects-completed');//.querySelector('#projects-completed');
+    var position = element.getBoundingClientRect();
+    //console.log(position.top);
+    if(position.top < 300 && position.top > 200) {
+        updateCount();
+    }
+  });
+	
 });
