@@ -130,6 +130,7 @@
       max-width: 50%;
     }
 
+}
 
 
 /* ========================== WHITE DROPDOWN MENU - START ===================== */
@@ -210,13 +211,12 @@
 
 
 
-  }
 
 
 
 
   
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 
 
@@ -246,71 +246,71 @@
   #masthead .header-container .header-container_wrap .items .contact-info {
    display: flex;
    flex-direction: column;
-}
+   }
 
   #masthead .header-container .header-container_wrap  {
    padding: 2rem;
-}
+   }
 
   #masthead .header-container .header-container_wrap .items .item {
    margin-bottom: .5rem;
    margin-right: 0;
-}
+   }
 
   #masthead .header-container .header-container_wrap .items .item:nth-child(4)  {
    margin-bottom: 0rem;
    margin-right: 0;
-}
+   }
 
 
 
   #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap  {
    margin-bottom: 0rem;
-}
+   }
 
   #masthead .header-container .header-container_wrap .items .item .contact-block__value-wrap p {
    line-height: .75rem;
-}
+   }
 
-/* White Menu Bar */
+   /* White Menu Bar */
 
-#masthead .header-container .fixed-nav {
+   #masthead .header-container .fixed-nav {
    margin-top: -40px;
-}
+   }
 
-/* Facebook */
+   /* Facebook */
 
-#masthead .header-container .header-container_wrap .items .item .facebook-like {
+   #masthead .header-container .header-container_wrap .items .item .facebook-like {
    text-align: center;
    /* align-self: center; */
    margin: auto;
-}
+   }
 
-.l-heading {
+   .l-heading {
    font-weight: bold;
    font-size: 2rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
-}
+   }
 
 
-.m-heading {
+   .m-heading {
    font-weight: bold;
    font-size: 1rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
-}
+   }
 
 
    /* ================ WHITE MENU NAVBAR DROPDOWN - START ============ */
 
 
    
-/* Removing the Menu Underline For Ipad and Mobile */
+   /* Removing the Menu Underline For Ipad and Mobile */
 
-.target {
-   display: none;
-}
+   .target {
+      display: none;
+   }
 
    
 
@@ -345,12 +345,12 @@
     /* After Hamburger Is Clicked On */
 
     
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+   .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+   }
 
   /* This is Causing Sticky To NOt Work After you Click On "Hamburger Menu" */
    .bottomnav.responsive {position: relative;}
@@ -390,48 +390,48 @@
       flex-direction: column;
   }
 
-/* AFTER YOU CLICK ON HAMBURGER */
+   /* AFTER YOU CLICK ON HAMBURGER */
 
 
-.bottomnav.responsive .container .items {
+   .bottomnav.responsive .container .items {
    display: flex;
    justify-content: center !important;
-}
+   }
 
 
-.bottomnav.responsive .container .items .item  a {
+   .bottomnav.responsive .container .items .item  a {
    float: none;
    display: block;
    text-align: center;
-}
+   }
 
-.bottomnav.responsive .container .items .item  .mynav .hamburger  {
+   .bottomnav.responsive .container .items .item  .mynav .hamburger  {
    display: flex;
   justify-content: center;
   margin-bottom: 2.5rem;
-}
+   }
 
-.bottomnav.responsive .container .items .item  .mynav ul  {
-   display: flex;
-   flex-direction: column;
-   text-align: left;
-}
-
-
-.bottomnav.responsive a.icon {
-   display: flex !important;
-   align-items: center;
-}
+   .bottomnav.responsive .container .items .item  .mynav ul  {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+   }
 
 
+   .bottomnav.responsive a.icon {
+      display: flex !important;
+      align-items: center;
+   }
 
-.bottomnav.responsive .dropdown {float: none;}
-.bottomnav.responsive .dropdown-content {position: relative;}
-.bottomnav.responsive .dropdown .dropbtn {
-   display: block;
-   width: 100%;
-   /* text-align: left; */
-}
+
+
+   .bottomnav.responsive .dropdown {float: none;}
+   .bottomnav.responsive .dropdown-content {position: relative;}
+   .bottomnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      /* text-align: left; */
+   }
 
 
 
@@ -442,9 +442,9 @@
    /* ============================ SWIPER ======================= */
 
 
-.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
-   font-size: 2rem;
-}
+   .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+      font-size: 2rem;
+   }
 
 
    /* ============================ SKID STEER ======================= */
@@ -497,10 +497,10 @@
    }
 
    
-#projects-completed .container .items .item .circle .counter {
+   #projects-completed .container .items .item .circle .counter {
 
-   font-size: 3rem;
-}
+      font-size: 3rem;
+   }
 
    /* MEET OUR TEAM */
 
@@ -522,34 +522,33 @@
   .column {
    flex: 100%;
    max-width: 100%;
+  }
    
    /* ============================ MAIN FOOTER - ALL PAGES ======================= */
 
   
-#main-footer  .items {
+   #main-footer  .items {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   
   
-}
+   }
   
 
-#main-footer  .items .item{
-   display: flex;
-   text-align: center;
-   flex-direction: column;
-   max-width: 250px;
-   color: white;
-   justify-content: center;
+   #main-footer  .items .item{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      max-width: 250px;
+      color: white;
+      justify-content: center;
 
-}
+   }
 
 
 
   }
-
 
   
   @media screen and (max-width: 320px) {
@@ -562,4 +561,6 @@
       font-size: 3rem;
   }
 
-  }
+}
+
+
