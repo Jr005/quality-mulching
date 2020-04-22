@@ -109,6 +109,10 @@ display: grid;
     color: #f7c51e;
 }
 
+.text-black {
+    color: black;
+}
+
 .bg-yellow {
     background: #f7c51e;
     color: black;
@@ -740,7 +744,69 @@ display: grid;
     vertical-align: middle;
     width: 100%;
   }
+
+
+/*  =============== ******** ABOUT PAGE ************* ============= */
+
+
+#contact-us {
+    position: relative;
+   background-image: url("/img/contact-us-header-Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe-dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape-road-drive-way-driveway-landscaping-sand-rock.jpg");
+   height: 500px; /* You must set a specified height */
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+}
   
+
+
+#contact-us .about-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#contact-us .about-content  .container{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+
+}
+
+
+#contact-us .about-content  .container h1{
+   /* position: relative; */
+   margin: 20px;
+   display: block;
+   
+}
+
+/*  
+#about .about-content  .container h1 span {
+   border-bottom: 5px solid #f7c51e;
+   width: 20%;
+} */
+
+#contact-us .about-content  .container h1 span {
+   position: relative;
+}
+
+#contact-us .about-content  .container h1 span::after {
+   content: '';
+   width: 40%;
+   height: 4px;
+   background: #f7c51e;
+   position: absolute;
+   bottom: -4px;
+   left: 0;
+}
+
 
 
 
