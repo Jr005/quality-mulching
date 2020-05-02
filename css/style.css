@@ -864,6 +864,82 @@ display: grid;
 }
 
 
+/*  =============== ******** BRUSH MULCHING LAND ************* ============= */
+
+
+
+  
+
+#brush-mulching {
+    position: relative;
+    background-image: url("/img/brush-mulching-land-clearing/panicum-three-awn-spranglegrass-tickclover-sumac-wax-myrtle-Chinese-bodark-oak-elm-pin-post-blackjack-tallot.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#brush-mulching .brush-mulching-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.2);
+}
+
+#brush-mulching .brush-mulching-content .container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+#brush-mulching .brush-mulching-content .container h1 {
+    margin: 20px;
+    display: block;
+}
+
+#brush-mulching .brush-mulching-content .container h1 span {
+
+    position: relative;
+}
+
+#brush-mulching .brush-mulching-content .container h1 span::after {
+
+    content: '';
+    width: 40%;
+    height: 4px;
+    background: #f7c51e;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-us .about-content  .container h1 span::after {
+   content: '';
+   width: 40%;
+   height: 4px;
+   background: #f7c51e;
+   position: absolute;
+   bottom: -4px;
+   left: 0;
+}
+
+
 
 
 
