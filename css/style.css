@@ -918,27 +918,95 @@ display: grid;
     left: 0;
 }
 
+/*  =============== WE CAN TAKE THIS ============= */
 
 
-
-
-
-
-
-
-
-
-
-#contact-us .about-content  .container h1 span::after {
-   content: '';
-   width: 40%;
-   height: 4px;
-   background: #f7c51e;
-   position: absolute;
-   bottom: -4px;
-   left: 0;
+#we-can-take-this .container .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+#we-can-take-this .container .items img {
+    width: 25rem;
+    height: 25rem;
+    border-style: solid;
+  border-width: 5px;
+}
+
+/*  =============== NO BURN PILES ============= */
+
+
+#no-burn-piles .container .items {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+#no-burn-piles .container .items .item{
+    align-self: center;
+}
+
+#no-burn-piles .container img {
+    width: 100%;
+    /* height: 25rem; */
+    border-style: solid;
+  border-width: 5px;
+}
+
+
+/*  =============== Reclaim Your Land ============= */
+
+
+#reclaim-your-land .container .items {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+
+#reclaim-your-land .container .items .item {
+    align-self: center;
+}
+
+#reclaim-your-land .container .items .item img{
+    width: 35rem;
+    height: 35rem;
+    border-style: solid;
+  border-width: 5px;
+}
+
+
+
+/*  =============== Dont Let These Guys ============= */
+
+
+#dont-let-these-guys .container .items {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+
+#dont-let-these-guys .items .item {
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+
+}
+
+/* 
+#dont-let-these-guys .container .items .item img{
+    width: 35rem;
+    height: 35rem;
+    border-style: solid;
+  border-width: 5px;
+}
+ */
 
 
 
