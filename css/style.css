@@ -961,7 +961,7 @@ display: grid;
 
 #reclaim-your-land .container .items {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     /* flex-direction: column; */
 }

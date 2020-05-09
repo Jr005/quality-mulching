@@ -112,6 +112,40 @@
   }
 
 
+   /* ================= BRUSH MULCHING LAND ================ */
+
+
+   #dont-let-these-guys .container .items .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+  
+  }
+
+
+   #dont-let-these-guys .container .items .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+  
+  }
+
+
+   #dont-let-these-guys .container .items .row:nth-child(2) .imageBx,
+   #dont-let-these-guys .container .items .row:nth-child(4) .imageBx {
+      order: 2;
+  
+  }
+
+
+
+
   @media screen and (max-width: 768px) {
 
      #masthead .header-container .header-container_wrap .items .item {
