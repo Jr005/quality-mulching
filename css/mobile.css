@@ -566,6 +566,40 @@
      margin-bottom: 3rem;
   }
 
+
+  /* ============================ BRUSH MULCHING LAND CLEARING ======================= */
+
+  #brush-mulching-body .m-heading {
+     font-size: 1.5rem;
+  }
+
+
+  #we-can-take-this .container .items img {
+   width: 20rem;
+   height: 100%;
+   border-style: solid;
+ border-width: 5px;
+}
+
+
+#reclaim-your-land .container .items .item img {
+   width: 20rem;
+   height: 100%;
+   border-style: solid;
+   border-width: 5px;
+}
+
+#dont-let-these-guys .container .items .row .imageBx img {
+   width: 20rem;
+   height: 100%;
+
+}
+
+#dont-let-these-guys .container .items .row .content {
+   max-width: 100%;
+   padding: 1rem 0;
+}
+
    
    /* ============================ MAIN FOOTER - ALL PAGES ======================= */
 
@@ -603,6 +637,32 @@
    #about .l-heading {
       font-size: 3rem;
   }
+
+
+  /* BRUSH MULCHING PAGE */
+
+
+  
+  #we-can-take-this .container .items img {
+   width: 15rem;
+   /* height: 100%; */
+   border-style: solid;
+ border-width: 5px;
+}
+
+
+#reclaim-your-land .container .items .item img {
+   width: 15rem;
+   /* height: 100%; */
+   border-style: solid;
+   border-width: 5px;
+}
+
+#dont-let-these-guys .container .items .row .imageBx img {
+   width: 15rem;
+   /* height: 100%; */
+
+}
 
 }
 
