@@ -144,6 +144,30 @@
   }
 
 
+  
+  /* ============================ MAPPING MEASURMENTS ======================= */
+
+
+  #mapping-images .container .grid-container {
+
+   grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+#mapping-images .container .grid-container .card {
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
+   padding: 1rem;
+   }
+   
+
+
+
+
 
 
   @media screen and (max-width: 768px) {
@@ -242,8 +266,6 @@
                padding: 1rem;
             }
             
-
-
 
 
 
@@ -599,6 +621,28 @@
    max-width: 100%;
    padding: 1rem 0;
 }
+
+
+  /* ============================ MAPPING MEASURMENTS ======================= */
+
+
+#mapping-images .container .grid-container {
+
+   grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+
+#mapping-images .container .grid-container .card {
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
+   padding: 1rem;
+   }
+   
+
 
    
    /* ============================ MAIN FOOTER - ALL PAGES ======================= */

@@ -141,7 +141,7 @@ display: grid;
 
 .bg-grey {
     background: #363636;
-    color: black;
+    color: white;
 }
 
 .bg-black {
@@ -1019,6 +1019,66 @@ display: grid;
 }
 
 
+
+
+
+
+/*  =============== ******** MAPPING MEASURMENTS ************* ============= */
+
+
+
+  
+
+#mapping-measurement {
+    position: relative;
+    background-image: url("/img/mapping-measurement/Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove-Independence-Clay-Wilcox-Millican-NavasotaAnderson-Richards-Roans-Prairie  Blackjack.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mapping-measurement .mapping-measurement-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.2);
+}
+
+#mapping-measurement .mapping-measurement-content .container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+#mapping-measurement .mapping-measurement-content .container h1 {
+    margin: 20px;
+    display: block;
+}
+
+#mapping-measurement .mapping-measurement-content .container h1 span {
+
+    position: relative;
+}
+
+#mapping-measurement .mapping-measurement-content .container h1 span::after {
+
+    content: '';
+    width: 40%;
+    height: 4px;
+    background: #f7c51e;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+
+/*  =============== ******** MAPPING MEASURMENTS - END ************* ============= */
 
 
 
