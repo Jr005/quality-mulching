@@ -146,27 +146,80 @@
 
   
   /* ============================ MAPPING MEASURMENTS ======================= */
-
-
+  
+  
   #mapping-images .container .grid-container {
+     
+     grid-template-columns: repeat(2, 1fr);
+     
+   }
+   
+   
+   
+   #mapping-images .container .grid-container .card {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem;
+   }
+   
+   
+   
+   /* ============================ EROSION MITIGATION DRIVEWAYS ROADS ======================= */
 
-   grid-template-columns: repeat(2, 1fr);
 
+
+   
+#erosion-mapping-images .container .image-gallery{
+   
+   grid-template-areas: 
+       'img-1 img-1 img-2 img-2'
+       'img-1 img-1 img-3 img-3'
+       'img-4 img-4 img-5 img-5'
+       'img-6 img-6 img-7 img-7'
+       'img-6 img-6 img-8 img-8'
+       'img-9 img-9 img-9 img-9';
 }
 
 
 
-#mapping-images .container .grid-container .card {
-   display: grid;
-   justify-items: center;
-   align-items: center;
-   text-align: center;
-   padding: 1rem;
+   .image-gallery a {
+       height: 20rem;
+
    }
-   
+
+   .img-1 {
+       min-height: 41.5rem;
+   }
+
+   /* .img-6 {
+       min-height: 20rem;
+   }
+ */
+
+
+ #terraces-for-erosion .container .items .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+#terraces-for-erosion .container .items .row .content {
+   max-width: 100%;
+}
 
 
 
+#terraces-for-erosion .container .items .row:nth-child(2) .imageBx,
+#terraces-for-erosion .container .items .row:nth-child(4) .imageBx {
+   order: 2;
+
+}
 
 
 
@@ -642,6 +695,38 @@
    padding: 1rem;
    }
    
+
+    
+   /* ============================ EROSION MITIGATION DRIVEWAYS ROADS ======================= */
+
+
+
+   
+#erosion-mapping-images .container .image-gallery{
+   
+   grid-template-areas: 
+       'img-1 img-1 img-1 img-1'
+       'img-2 img-2 img-2 img-2'
+       'img-3 img-3 img-3 img-3'
+       'img-4 img-4 img-4 img-4'
+       'img-5 img-5 img-5 img-5'
+       'img-6 img-6 img-6 img-6'
+       'img-7 img-7 img-7 img-7'
+       'img-8 img-8 img-8 img-8'
+       'img-9 img-9 img-9 img-9';
+}
+
+
+
+   .image-gallery a {
+       height: 20rem;
+
+   }
+
+   .img-1 {
+       min-height: 41.5rem;
+   }
+
 
 
    
