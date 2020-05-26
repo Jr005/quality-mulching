@@ -397,7 +397,7 @@
 
    .l-heading {
    font-weight: bold;
-   font-size: 2rem;
+   font-size: 3rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
    }
@@ -405,7 +405,7 @@
 
    .m-heading {
    font-weight: bold;
-   font-size: 1rem;
+   font-size: 2rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
    }
@@ -726,7 +726,21 @@
    .img-1 {
        min-height: 41.5rem;
    }
+   
+   /* ============================ LANDSCAPING MANAGEMENT ======================= */
 
+
+
+   #drainage-cause-foundation-problems .container .items .item {
+      /* position: relative; */
+      max-width: 33.3333%;
+      min-width: 20rem;
+      height: auto;
+      /* overflow: hidden; */
+      /* object-fit: cover; */
+      /* object-fit: cover; */
+      margin: auto;
+  }
 
 
    
@@ -758,6 +772,25 @@
 
   
   @media screen and (max-width: 320px) {
+
+
+   
+   .l-heading {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+      }
+   
+   
+      .m-heading {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+      }
+   
+   
 
    .btn-black {
       font-size: 14px;
@@ -792,6 +825,27 @@
    /* height: 100%; */
 
 }
+
+
+
+   /* ============================ LANDSCAPING MANAGEMENT ======================= */
+/* 
+   #drainage-cause-foundation-problems .container .items {
+      flex-direction: row;
+      justify-content: center;
+
+   } 
+
+   #drainage-cause-foundation-problems .container .items .item img {
+      width: 15rem;
+      /* min-width: 0; */
+      height: auto;
+      align-self: center;
+   }
+ */
+
+
+
 
 }
 
