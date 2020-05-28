@@ -1435,6 +1435,9 @@ display: grid;
 
 
 
+
+
+
 /*  ******** HEADER IMAGE - START *************  */
   
 
@@ -1489,14 +1492,87 @@ display: grid;
 
 /*  ******** HEADER IMAGE - END *************  */
 
+
+
+/*  =============== General Dirt Work GRID PHOTO GALLERY ============= */
+
+
+.dirt-work-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    padding: 1rem;
+}
+
+
+.dirt-work-gallery .box {
+    background-color: #ccc;
+    background-size: cover;
+}
+
+
+.dirt-work-gallery .box:after {
+    content: '';
+    display: block;
+    padding-top: calc(100% / (16/10));
+  }
+
+
+
+    #mapping-images  .dirt-work-gallery .box:nth-child(1) {
+    
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape.png");
+  }
+
+  #mapping-images  .dirt-work-gallery .box:nth-child(2) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(3) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove.jpg");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(4) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Jones-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.jpg");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(5) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-tank-pond-Verde-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor-Manheim-Page-Hills-Serbin-Camp-Swift-Mcdade-Alum-Creek.jpg");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(6) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe.png");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(7) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/pond-clearing-general-dirt-work-Upton-Winchester-Ledbetter-Waldeck-Carmine-Roundtop-Warrenton.jpg");
+  }
+  #mapping-images  .dirt-work-gallery .box:nth-child(8) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
+  }
+
+
+/*  =============== Grid Electrical Work PHOTO GALLERY ============= */
+
+
+
+#electrical-lines-grid  .dirt-work-gallery .box:nth-child(1) {
+    
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-_Swift-Mcdade-Alum-Creek-Upton-Winchester-Ledbetter-Waldeck-3.png");
+  }
+
+  #electrical-lines-grid  .dirt-work-gallery .box:nth-child(2) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.png");
+  }
+  #electrical-lines-grid  .dirt-work-gallery .box:nth-child(3) {
+    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor.png");
+  }
+
+
+
 /*  ******** GENERAL DIRT WORK *************  */
 
-
+/* 
 #general-dirt-work .container .items {
 
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
 }
@@ -1508,13 +1584,9 @@ display: grid;
 }
 
 #general-dirt-work .container .items .row .item  {
-    /* position: relative; */
     max-width: 33.3333%;
     min-width: 25rem;
     height: 25rem;
-    /* overflow: hidden; */
-    /* object-fit: cover; */
-    /* object-fit: cover; */
 }
 
 #general-dirt-work .container .items .row .item img {
@@ -1522,7 +1594,7 @@ display: grid;
     height: 100%;
     object-fit: cover;
 
-}
+} */
 
 
 
