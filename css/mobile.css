@@ -749,6 +749,17 @@
       margin: auto;
    }
    
+   /* ============================ Demolition Clean Up- ALL PAGES ======================= */
+
+   #demolition-images .l-heading {
+      font-size: 2rem;
+  }
+
+   #demolition-images .m-heading {
+      font-size: 1.5rem;
+  }
+
+
 
    
    /* ============================ MAIN FOOTER - ALL PAGES ======================= */
