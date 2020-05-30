@@ -1,4 +1,6 @@
 
+
+
 /* Top Header */
 
 /* Logo */
@@ -225,6 +227,25 @@
 
    /* ============================ GENERAL DIRT WORK TANK POND TRENCHING ======================= */
 
+
+   
+   /* ========================== Foundation Pads ===================== */
+
+
+   
+#foundations-pads .items .row .imageBx  {
+   /* order: 2; */
+   max-width: 40%;
+
+}
+
+   
+#foundations-pads .items .row .imageBx img  {
+   /* order: 2; */
+   max-width: 100%;
+
+}
+
    
 
 
@@ -246,7 +267,13 @@
    .column {
       flex: 50%;
       max-width: 50%;
-    }
+   }
+   
+   
+
+
+
+
 
 }
 
@@ -320,13 +347,14 @@
 
 
    /*  =========== OUR PROJECTS =========== */
-
-
-            #our-projects .container .lead {
-               padding: 1rem;
-            }
-            
-
+   
+   
+   #our-projects .container .lead {
+      padding: 1rem;
+   }
+   
+   
+   /*  =========== OUR PROJECTS =========== */
 
 
 
@@ -334,11 +362,19 @@
   
 @media screen and (max-width: 600px) {
 
-
+   .l-heading {
+      font-size: 2rem;
+   }
+   
+   .m-heading {
+      font-size: 1.5rem;
+   }
+   
+/* 
 
    .py-2 {
       padding: 1rem 0;
-  }
+  } */
 
 
 
@@ -401,21 +437,21 @@
    /* align-self: center; */
    margin: auto;
    }
-
+/* 
    .l-heading {
    font-weight: bold;
    font-size: 3rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
-   }
+   } */
 
-
+/* 
    .m-heading {
    font-weight: bold;
    font-size: 2rem;
    margin-bottom: 0.75rem;
    line-height: 1.1;
-   }
+   } */
 
 
    /* ================ WHITE MENU NAVBAR DROPDOWN - START ============ */
@@ -750,14 +786,47 @@
    }
    
    /* ============================ Demolition Clean Up- ALL PAGES ======================= */
-
+   
    #demolition-images .l-heading {
       font-size: 2rem;
-  }
-
+   }
+   
    #demolition-images .m-heading {
       font-size: 1.5rem;
-  }
+   }
+   
+
+
+   /* ============================ Foundation Pads ======================= */
+
+
+   #foundations-pads .container .content {
+      padding: .5rem 0;
+   }
+
+   #foundations-pads .container .items .row {
+      display: flex;
+      flex-direction: column;
+   }
+
+
+   #foundations-pads .container .items .row .content {
+      max-width: none;
+   }
+
+
+   #foundations-pads .container .items .row .imageBx {
+      width: 100%;
+      order: 2;
+      max-width: none;
+   }
+
+
+   #foundations-pads .container .items .row .imageBx img {
+      width: 100%;
+   }
+
+
 
 
 
@@ -844,23 +913,6 @@
 
 }
 
-
-
-   /* ============================ LANDSCAPING MANAGEMENT ======================= */
-/* 
-   #drainage-cause-foundation-problems .container .items {
-      flex-direction: row;
-      justify-content: center;
-
-   } 
-
-   #drainage-cause-foundation-problems .container .items .item img {
-      width: 15rem;
-      /* min-width: 0; */
-      height: auto;
-      align-self: center;
-   }
- */
 
 
 

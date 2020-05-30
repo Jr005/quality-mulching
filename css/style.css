@@ -1691,6 +1691,103 @@ display: grid;
 
 
 
+  /*  =============== Foundation & Pads ============= */
+
+
+  
+
+/*  ******** HEADER IMAGE - START *************  */
+  
+
+#foundations-pads-header-image {
+    position: relative;
+    background-image: url("/img/foundation-pads/foundation-pads-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foundations-pads-header-image .l-heading {
+    font-size: 3rem;
+}
+
+#foundations-pads-header-image .foundations-pads-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.4);
+}
+
+#foundations-pads-header-image .foundations-pads-content .container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+#foundations-pads-header-image .foundations-pads-content .container h1 {
+    margin: 20px;
+    display: block;
+}
+
+#foundations-pads-header-image .foundations-pads-content .container h1 span {
+
+    position: relative;
+}
+
+#foundations-pads-header-image .foundations-pads-content .container h1 span::after {
+
+    content: '';
+    width: 40%;
+    height: 4px;
+    background: #f7c51e;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+
+/*  ******** HEADER IMAGE - END *************  */
+
+#foundations-pads .items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#foundations-pads .items .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+#foundations-pads .items .row .content {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 50%;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+#foundations-pads .items .row .imageBx  {
+    /* order: 2; */
+    max-width: 50%;
+
+}
+
+
 
 
 
