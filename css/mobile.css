@@ -220,7 +220,13 @@
 #terraces-for-erosion .container .items .row:nth-child(2) .imageBx,
 #terraces-for-erosion .container .items .row:nth-child(4) .imageBx {
    order: 2;
+   width: 100%;
 
+}
+
+
+#terraces-for-erosion .container .items .row .imageBx img {
+   width: 100%;
 }
 
 
@@ -245,6 +251,15 @@
    max-width: 100%;
 
 }
+   
+#below-two-examples .items .item img  {
+   /* order: 2; */
+   /* width: 20rem; */
+   width: 20rem;
+
+}
+
+
 
    
 
@@ -269,13 +284,31 @@
       max-width: 50%;
    }
    
-   
+   /* ========================== MAIN FOOTER BOTTOM ===================== */
+
+   #main-footer .items .item:nth-of-type(4) {
+      display: flex;
+      /* background-color: red; */
+      max-width: none;
+      width: 80%;
+      padding-top: 1rem;
+   }
+
+   #main-footer .items .item:nth-of-type(4) .work-hours-content {
+      display: flex;
+      /* background-color: red; */
+      /* max-width: none; */
+      width: 100%;
+   }
+
+   #main-footer .items .item:nth-of-type(4) .work-hours-content .content {
+      padding: 0 1rem;
+   }
 
 
 
 
-
-}
+   }
 
 
 /* ========================== WHITE DROPDOWN MENU - START ===================== */
@@ -854,6 +887,20 @@
    }
 
 
+   
+   #main-footer .items .item:nth-of-type(4) .work-hours-content {
+      display: flex;
+      flex-direction: column;
+      /* background-color: red; */
+      /* max-width: none; */
+      width: 100%;
+   }
+
+   #main-footer .items .item:nth-of-type(4) .work-hours-content .content {
+      padding: 0 0rem;
+   }
+
+
 
   }
 
@@ -912,6 +959,19 @@
    /* height: 100%; */
 
 }
+
+
+/* ================= EROSION MITIGATION ================= */
+
+
+ 
+#below-two-examples .items .item img  {
+   /* order: 2; */
+   /* width: 20rem; */
+   width: 15rem;
+
+}
+
 
 
 

@@ -471,6 +471,15 @@ display: grid;
     /* float: left; */
     overflow: hidden;
   }
+
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  
   
   /* Style the dropdown button to fit inside the bottomnav */
   .dropdown .dropbtn {
@@ -537,10 +546,75 @@ display: grid;
   
   /* SEARCH ICONS */
 
+/* 
   #mybottomnav .items .item .fa-search{
       font-size: 1.25rem;
       color: #363636;
+  } */
+
+/* ====== ************ SEARCH BOX ************* =========== */
+
+
+
+#mybottomnav .items .item:nth-child(2) {
+    position: relative;
+    
   }
+  
+
+#mybottomnav .items .item .search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #363636;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+  
+#mybottomnav .items .item  .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+  }
+  
+#mybottomnav .items .item  .search-box:hover > .search-btn {
+    background: #363636;
+  }
+  
+  
+  #mybottomnav .items .item .search-box  .search-btn{
+  /*   position: absolute; */
+    color: white;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  
+  
+  #mybottomnav .items .item .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+  }
+
+
+/* ====== ************ SEARCH BOX END ************* =========== */
 
 
 
@@ -1773,7 +1847,7 @@ display: grid;
 
 #foundations-pads .items .row .content {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     max-width: 50%;
     align-items: center;
     align-content: center;
