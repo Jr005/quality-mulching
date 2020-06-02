@@ -43,6 +43,22 @@
 }
 
 
+/* =================== SEARCH BAR ===================== */
+
+
+
+#mybottomnav .items .item:nth-child(2) {
+   display: none;
+   
+ }
+ 
+
+#mybottomnav .items .item .search-box {
+  display: none;
+ }
+
+
+
 
 /* =================== SWIPER SLIDER ===================== */
 
@@ -463,6 +479,13 @@
    margin-top: -40px;
    }
 
+   /* Facebook */
+
+   #masthead .header-container .header-container_wrap .items .item a {
+   text-align: center;
+   /* align-self: center; */
+   margin: auto;
+   }
    /* Facebook */
 
    #masthead .header-container .header-container_wrap .items .item .facebook-like {
