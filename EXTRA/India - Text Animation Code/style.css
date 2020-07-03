@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+/* 
+YELLOW - #f7c51e
+GREY - #363636
+background white - #f6f6f6
+
+*/
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.btn-black{
+    padding: 1.5rem 2rem;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn-yellow{
+    padding: 1.5rem 2rem;
+    color:  white;
+    background: #f7c51e;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p {
+    margin: .5rem 0;
+}
+
+/* Utility Classes */
+
+/* Grid Container */
+
+
+.grid-container {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.grid-container-2 {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+}
+
+
+/* Grid Container - END */
+
+
+.container {
+    max-width: 1404px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-yellow {
+    color: #f7c51e;
+}
+
+.bg-yellow {
+    background: #f7c51e;
+    color: black;
+}
+
+.bg-grey {
+    background: #f9f9f9;
+    color: black;
+}
+
+
+.l-heading {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin: 0.75rem 0;
+}
+
+
+
+/* Padding */
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+
+/* All Around Padding */
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+
+/* Utility Classes - END */
+
+
+
+/* ================  HOME PAGE ==================== */
+
+
+/* HEADER */
+
+
+
+.site-header {
+    background-color: transparent;
+}
+
+.site-header .header-container {
+    background: black;
+    color: white;
+}
+
+/* BLACK BAR */
+
+.site-header .header-container .header-container_wrap {
+    padding: 30px 5px;
+    /* background: red; */
+}
+
+#masthead .header-container .header-container_wrap .items {
+    display: flex;
+
+}
+
+#masthead .header-container .header-container_wrap .items .contact-info {
+    display: flex;
+
+}
+
+#masthead .header-container .header-container_wrap .items .quality-logo {
+    margin-right: 3rem;
+    line-height: 5px;
+}
+
+#masthead .header-container .header-container_wrap .items .quality-logo p {
+    font-size: 14px;
+}
+
+
+#masthead .header-container .header-container_wrap .items .item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+
+#masthead .header-container .header-container_wrap .items .item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#masthead .header-container .header-container_wrap .items .item .facebook-like {
+    text-align: center;
+}
+
+
+
+#masthead .header-container .header-container_wrap .items .item .fas  {
+    font-size: 18px;
+    color: #f7c51e;
+    margin-right: 1.5rem;
+}
+
+
+#masthead .header-container .header-container_wrap .items .contact-info .item .fas  {
+    font-size: 18px;
+    color: #f7c51e;
+    margin-right: 1.5rem;
+    background: black;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #363636;
+}
+
+/* ========================== Bottom White Header Menu ================ */
+
+
+.fixed-nav{
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    background: red;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+.menu-center {
+    width: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+}
+
+.header-menu_wrap {
+    color: #363636;
+    background: #f6f6f6;
+}
+
+
+
+.header-menu_wrap .header-container_wrap .header-container__flex .header_caption .main-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-menu_wrap .header-container_wrap .header-container__flex .header_caption .main-navigation .menu {
+    display: flex;
+
+    align-items: center;
+    list-style: none;
+}
+
+
+
+.header-menu_wrap .header-container_wrap .header-container__flex .header_caption .main-navigation .menu a {
+    color: #363636;
+    margin-right: 2rem;
+    font-weight: 500;
+}
+
+
+/* SWIPER Slider Header */
+
+.swiper-container {
+    width: 100%;
+    height: 70vh;
+    /* background: white;    */
+}
+
+
+
+
+.swiper-container .swiper-wrapper .swiper-slide{
+    
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    
+}
+
+.swiper-container .swiper-wrapper .swiper-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+   
+}
+
+
+
+.swiper-container .swiper-wrapper .swiper-slide  {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+    width: 100%;
+
+
+    /* margin: auto; */
+}
+
+/* CSS FOR TEXT ANIMATION - START*/
+
+/* Animation */
+
+@-webkit-keyframes fadeBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@-moz-keyframes fadeBottom {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0); } }
+
+@-o-keyframes fadeBottom {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0); } }
+
+@keyframes fadeBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+/* TEXT CSS */
+.swiper-slide.swiper-slide-active .l-heading,
+.swiper-slide.swiper-slide-active p.m-heading{
+    -webkit-animation-duration: 0.7s;
+  -webkit-animation-delay: 0.9s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-duration: 0.7s;
+  -moz-animation-delay: 0.9s;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: both;
+  -o-animation-duration: 0.7s;
+  -o-animation-delay: 0.9s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-fill-mode: both;
+  -ms-animation-duration: 0.7s;
+  -ms-animation-delay: 0.9s;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-fill-mode: both;
+  animation-duration: 0.7s;
+  animation-delay: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeBottom;
+  -moz-animation-name: fadeBottom;
+  -ms-animation-name: fadeBottom;
+  -o-animation-name: fadeBottom;
+  animation-name: fadeBottom;
+}
+
+.swiper-slide.swiper-slide-active p.m-heading,
+.swiper-slide.swiper-slide-active .l-heading {
+    opacity: 0
+}
+
+.swiper-slide.swiper-slide-active p.m-heading,
+.swiper-slide.swiper-slide-active .l-heading {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/* CSS FOR TEXT ANIMATION - END */
+
+/* ================== HOME PAGE - CONTACT US =============== */
+
+
+
+
+
+#contact-services .container .text-center {
+ margin-bottom: 3rem;
+ 
+}
+
+
+
+
+/* Our Projects */
+
+#our-projects .container .lead {
+    margin-bottom: 3rem;
+}
