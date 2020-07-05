@@ -972,14 +972,13 @@ display: grid;
 }
 
 
+
+/******* FORM *******/
+
 #contacts-info .items .contact-form {
     flex-grow: 2;
     
 }
-
-
-/******* FORM *******/
-
 
 
 #contacts-info  .items .contact-form .form-group {
