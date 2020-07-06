@@ -1890,8 +1890,19 @@ display: grid;
 
 }
 
+  /*  =============== Foundation & Pads ============= */
 
-
+    #service-list .container {
+        display: flex;
+        flex-direction: column;
+        /* background: red; */
+    }
+    
+    #service-list .container a {
+        color: #f7c51e;
+        font-weight: bold;
+        line-height: 2rem;
+    }
 
 
 
