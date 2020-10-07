@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
 
 /* 
 YELLOW - #f7c51e
@@ -8,111 +7,98 @@ background white - #f6f6f6
 
 */
 
-
 * {
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
 .color-overlay-container {
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .color-overlay {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: .5;
-    z-index: 2;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  z-index: 2;
+  position: absolute;
 }
-
 
 .btn {
-    display: inline-block;
-    color: #fff;
-    background: purple;
-    padding: 0.5rem 2rem;
-    border: none;
-    border-radius: 5px;
-    
+  display: inline-block;
+  color: #fff;
+  background: purple;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
 }
-
 
 .btn:hover {
-    background: green;
+  background: green;
 }
 
-
-.btn-black{
-    padding: 1.5rem 2rem;
-    color: white;
-    background: black;
-    text-transform: uppercase;
-    font-weight: 900;
+.btn-black {
+  padding: 1.5rem 2rem;
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
-.btn-yellow{
-    padding: 1.5rem 2rem;
-    color:  white;
-    background: #f7c51e;
-    text-transform: uppercase;
-    font-weight: 900;
+.btn-yellow {
+  padding: 1.5rem 2rem;
+  color: white;
+  background: #f7c51e;
+  text-transform: uppercase;
+  font-weight: 900;
 }
-
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 p {
-    margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 /* Utility Classes */
 
 /* Grid Container */
 
-
 .picture-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    justify-items: center;
-    grid-gap: 10px;
-    grid-row-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-items: center;
+  grid-gap: 10px;
+  grid-row-gap: 5px;
 }
 
 .grid-box-large {
-    grid-column: span 2;
-    grid-row: span 1;
-} 
-
+  grid-column: span 2;
+  grid-row: span 1;
+}
 
 .grid-box img {
-    width: 100%;
-    /* height: 100%; */
-
+  width: 100%;
+  /* height: 100%; */
 }
 
 .grid-box-large img {
-    width: 100%;
-    /* height: 100%; */
-} 
-
-
+  width: 100%;
+  /* height: 100%; */
+}
 
 .grid-container {
-display: grid;
+  display: grid;
   /* grid-template-columns: repeat(4, 1fr); */
   grid-gap: 1rem;
   margin: auto;
@@ -120,185 +106,165 @@ display: grid;
   /* grid-auto-rows: minmax(400px, auto); */
 }
 
-
 .grid-container-2 {
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   margin: auto;
 }
 
 .card {
-    background: #fff;
-    padding: 1rem;
+  background: #fff;
+  padding: 1rem;
 }
-
 
 /* Grid Container - END */
 
-
 .container {
-    max-width: 1404px;
-    margin: auto;
-    padding: 0 2rem;
-    overflow: hidden;
+  max-width: 1404px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
 }
-
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
-
 .text-yellow {
-    color: #f7c51e;
+  color: #f7c51e;
 }
 
 .text-black {
-    color: black;
+  color: black;
 }
 
 .bg-yellow {
-    background: #f7c51e;
-    color: black;
+  background: #f7c51e;
+  color: black;
 }
 
 .bg-yellow-white {
-    background: #f7c51e;
-    color: white;
+  background: #f7c51e;
+  color: white;
 }
 
 .bg-grey {
-    background: #363636;
-    color: white;
+  background: #363636;
+  color: white;
 }
 
 .bg-black {
-    background:black;
-    color: white;
+  background: black;
+  color: white;
 }
-
 
 .circle {
-
-   width: 13rem;
-   height: 13rem;
-   background: #ffd34a; 
-   -moz-border-radius: 50%; 
-   -webkit-border-radius: 50%; 
-   border-radius: 50%;
+  width: 13rem;
+  height: 13rem;
+  background: #ffd34a;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
 
-
 .l-heading {
-    font-weight: bold;
-    font-size: 4rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.1;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
 }
 
 .m-heading {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-    line-height: 1.1;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
 }
 
 .lead {
-    font-size: 1.3rem;
-    margin: 0.75rem 0;
+  font-size: 1.3rem;
+  margin: 0.75rem 0;
 }
-
-
 
 /* Padding */
 
 .py-1 {
-    padding: 1.5rem 0;
+  padding: 1.5rem 0;
 }
 
 .py-2 {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .py-3 {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
-
 
 /* All Around Padding */
 
 .p-1 {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .p-2 {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .p-3 {
-    padding: 3rem;
+  padding: 3rem;
 }
-
 
 /* Utility Classes - END */
 
-
-
 /* ================  HOME PAGE ==================== */
-
 
 /* HEADER */
 
-
-
 .site-header {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .site-header .header-container {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 
 /* BLACK BAR */
 
 .site-header .header-container .header-container_wrap {
-    padding: 30px 5px;
-    /* background: red; */
+  padding: 30px 5px;
+  /* background: red; */
 }
 
 #masthead .header-container .header-container_wrap .items {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #masthead .header-container .header-container_wrap .items .contact-info {
-    display: flex;
-
+  display: flex;
 }
 
 #masthead .header-container .header-container_wrap .items .quality-logo {
-    margin-right: 3rem;
-    line-height: 5px;
+  margin-right: 3rem;
+  line-height: 5px;
 }
 
 #masthead .header-container .header-container_wrap .items .quality-logo p {
-    font-size: 14px;
-    line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-
 #masthead .header-container .header-container_wrap .items .item {
-    display: flex;
-    align-items: center;
-    margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
 }
 
-
 #masthead .header-container .header-container_wrap .items .item {
-    display: flex;
-    align-items: center;
-    margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
 }
 /* 
 #masthead .header-container .header-container_wrap .items .item .facebook-like {
@@ -308,8 +274,8 @@ display: grid;
 } */
 
 #masthead .header-container .header-container_wrap .items .item .facebook-like {
-    text-align: center;
-    background-color: black; /* Blue background */
+  text-align: center;
+  background-color: black; /* Blue background */
   border: none; /* Remove borders */
   color: white; /* White text */
   padding: none; /* Some padding */
@@ -317,85 +283,84 @@ display: grid;
   cursor: pointer; /* Mouse pointer on hover */
 }
 
-#masthead .header-container .header-container_wrap .items .item .facebook-like:hover {
-   
-/* Darker background on mouse-over */
+#masthead
+  .header-container
+  .header-container_wrap
+  .items
+  .item
+  .facebook-like:hover {
+  /* Darker background on mouse-over */
 
-    color: #f7c51e;
-  
+  color: #f7c51e;
 }
 
-
-
-#masthead .header-container .header-container_wrap .items .item .fas  {
-    font-size: 18px;
-    color: #f7c51e;
-    margin-right: 1.5rem;
+#masthead .header-container .header-container_wrap .items .item .fas {
+  font-size: 18px;
+  color: #f7c51e;
+  margin-right: 1.5rem;
 }
 
-
-#masthead .header-container .header-container_wrap .items .contact-info .item .fas  {
-    font-size: 18px;
-    color: #f7c51e;
-    margin-right: 1.5rem;
-    background: black;
-    border-radius: 50%;
-    padding: 10px;
-    border: 1px solid #363636;
+#masthead
+  .header-container
+  .header-container_wrap
+  .items
+  .contact-info
+  .item
+  .fas {
+  font-size: 18px;
+  color: #f7c51e;
+  margin-right: 1.5rem;
+  background: black;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #363636;
 }
 
 /* ========================== Bottom White Header Menu  - START ================ */
 
-
 /* Menu Underline */
 
-
 .mynav a {
-    display: block;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    padding: 7px 15px;
-  }
-  
-  .target {
-    position: absolute;
-    border-bottom: 4px solid transparent;
-    z-index: 100;
-    transform: translateX(-60px);
-    pointer-events: none;
-  }
-  
-  .mynav a,
-  .target {
-    transition: all .35s ease-in-out;
-  }
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 7px 15px;
+}
 
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: 100;
+  transform: translateX(-60px);
+  pointer-events: none;
+}
 
+.mynav a,
+.target {
+  transition: all 0.35s ease-in-out;
+}
 
-  /* ================================ STICKY ========================*/
-
+/* ================================ STICKY ========================*/
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  }
+.bottomnav.sticky {
+  padding: 0rem;
+}
 
-  .bottomnav.sticky {
-      padding: 0rem;
-  }
+.bottomnav.sticky .items .item {
+  margin: auto;
+}
 
-  .bottomnav.sticky .items .item {
-      margin: auto;
-  }
-
-  .bottomnav.sticky .items .item:nth-child(2)  {
-      display: none;
-  }
-
+.bottomnav.sticky .items .item:nth-child(2) {
+  display: none;
+}
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 /* .sticky + .swiper-container {
@@ -403,53 +368,48 @@ display: grid;
   }
  */
 
-
 .bottomnav {
-    background-color: white;
-    overflow: hidden;
-    padding: 1rem;
-    z-index: 1200;
-  }
+  background-color: white;
+  overflow: hidden;
+  padding: 1rem;
+  z-index: 1200;
+}
 
+#mybottomnav .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  #mybottomnav .items {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  
+#mybottomnav .items .item .mynav ul {
+  display: flex;
+  align-items: center;
+}
 
-  #mybottomnav .items .item .mynav ul{
-      display: flex;
-      align-items: center;
-  }
-  
+#mybottomnav .items .item .mynav ul li {
+  display: flex;
+  align-items: center;
+}
 
-  #mybottomnav .items .item .mynav ul li{
-      display: flex;
-      align-items: center;
-  }
-  
+#mybottomnav .items .item .mynav ul li:nth-child(4) {
+  margin-left: 0.5rem;
+  /* background-color: red; */
+}
 
-  #mybottomnav .items .item .mynav ul li:nth-child(4){
-      margin-left: .5rem;
-      /* background-color: red; */
-  }
-  
-  /* Style the links inside the navigation bar */
-  .bottomnav a {
-    /* float: left;
+/* Style the links inside the navigation bar */
+.bottomnav a {
+  /* float: left;
     display: block; */
-    color: rgb(94,94,94);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  
-  /* Add an active class to highlight the current page */
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Add an active class to highlight the current page */
 
 /*     
     .active {
@@ -457,94 +417,84 @@ display: grid;
     font-weight: 600; 
     color: #363636;
    }  */
-  
 
-  /* Hide the link that should open and close the bottomnav on small screens */
-  .bottomnav .icon {
-    display: none;
-  }
-  
+/* Hide the link that should open and close the bottomnav on small screens */
+.bottomnav .icon {
+  display: none;
+}
 
-  /* ============================ DROP DOWN MENU =============================== */
-  /* Dropdown container - needed to position the dropdown content */
-  .dropdown {
-    /* float: left; */
-    overflow: hidden;
-  }
-
+/* ============================ DROP DOWN MENU =============================== */
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  /* float: left; */
+  overflow: hidden;
+}
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+  display: block;
+}
 
-  
-  
-  /* Style the dropdown button to fit inside the bottomnav */
-  .dropdown .dropbtn {
-    font-size: 17px;
-    border: none;
-    outline: none;
-    /* color: rgb(94,94,94); */
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    text-transform: uppercase;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Style the dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: #f7c51e;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    color: rgb(94,94,94);
-  }
-  
-  /* Style the links inside the dropdown */
-.mynav   .dropdown-content a {
-    font-size: 14px;
-    font-weight: 500;
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    text-transform: uppercase;
-  }
-  
-  /* Add a dark background on bottomnav links and the dropdown button on hover */
-  .bottomnav a:hover, .dropdown:hover .dropbtn {
-    /* background-color: red; */
-    color: black;
-    
+/* Style the dropdown button to fit inside the bottomnav */
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  /* color: rgb(94,94,94); */
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
 
-  }
-  
-  /* Add a grey background to dropdown links on hover */
-  .dropdown-content a:hover {
-    /* background-color: red; */
-    color: black;
-    
-  }
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f7c51e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: rgb(94, 94, 94);
+}
 
-  
-  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown:hover .dropdown-content {
-    display: block;
-    z-index: 101;
-  }
-  
-  
-  /* SEARCH ICONS */
+/* Style the links inside the dropdown */
+.mynav .dropdown-content a {
+  font-size: 14px;
+  font-weight: 500;
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Add a dark background on bottomnav links and the dropdown button on hover */
+.bottomnav a:hover,
+.dropdown:hover .dropbtn {
+  /* background-color: red; */
+  color: black;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+  /* background-color: red; */
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 101;
+}
+
+/* SEARCH ICONS */
 
 /* 
   #mybottomnav .items .item .fa-search{
@@ -554,13 +504,10 @@ display: grid;
 
 /* ====== ************ SEARCH BOX ************* =========== */
 
-
-
 #mybottomnav .items .item:nth-child(2) {
-    position: relative;
-    
-  }
-  
+  position: relative;
+}
+
 /* 
 #mybottomnav .items .item .search-box {
     position: absolute;
@@ -573,28 +520,27 @@ display: grid;
     padding: 10px;
   } */
 
-  #mybottomnav .items .item .search-box {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(0, -50%);
-    background: #2f3640;
-    height: 50px;
-    border-radius: 50px;
-    min-width: 50px;
-    padding: 5px 10px 10px 10px;
-  }
+#mybottomnav .items .item .search-box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(0, -50%);
+  background: #2f3640;
+  height: 50px;
+  border-radius: 50px;
+  min-width: 50px;
+  padding: 5px 10px 10px 10px;
+}
 
-  
-#mybottomnav .items .item  .search-box:hover > .search-txt {
-    width: 240px;
-    padding: 0 6px;
-  }
-  
-#mybottomnav .items .item  .search-box:hover > .search-btn {
-    background: white;
-  }
-  
+#mybottomnav .items .item .search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+#mybottomnav .items .item .search-box:hover > .search-btn {
+  background: white;
+}
+
 /*   
   #mybottomnav .items .item .search-box  .search-btn{
     position: absolute;
@@ -612,328 +558,257 @@ display: grid;
   }
    */
 
+#mybottomnav .items .item .search-box .search-btn {
+  position: absolute;
+  color: #f7c51e;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s;
+  right: 10px;
+  top: 10px;
+}
 
-   #mybottomnav .items .item .search-box .search-btn {
-    position: absolute;
-    color: #f7c51e;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #2f3640;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    transition: 0.4s;
-    right: 10px;
-    top: 10px;
-  }
-  
-  
-  #mybottomnav .items .item .search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-  }
-
+#mybottomnav .items .item .search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
 
 /* ====== ************ SEARCH BOX END ************* =========== */
 
-
-
-
 /* ========================== Bottom White Header Menu - END ================ */
-
-
-
 
 /* SWIPER Slider Header */
 
 .swiper-container {
-    width: 100%;
-    height: 70vh;
-    /* background: white;    */
+  width: 100%;
+  height: 70vh;
+  /* background: white;    */
 }
 
-
-
-
-.swiper-container .swiper-wrapper .swiper-slide{
-    
-    position: relative;
-    /* text-align: center; */
-    color: white;
-    
+.swiper-container .swiper-wrapper .swiper-slide {
+  position: relative;
+  /* text-align: center; */
+  color: white;
 }
 
 .swiper-container .swiper-wrapper .swiper-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: auto;
-    z-index: 50;
-
-
-   
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  z-index: 50;
 }
 
-
-
-.swiper-container .swiper-wrapper .swiper-slide  {
-    display: flex;
+.swiper-container .swiper-wrapper .swiper-slide {
+  display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .swiper-container .swiper-wrapper .swiper-slide img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-
-    /* margin: auto; */
+  /* margin: auto; */
 }
-
 
 /* ================== HOME PAGE - CONTACT US =============== */
 
-
-
-
-
 #contact-services .container .text-center {
- margin-bottom: 3rem;
- 
+  margin-bottom: 3rem;
 }
-
-
-
 
 /* Our Projects */
 
-
-
-
 #our-projects .container .text-center {
-
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
-
 
 /*  =============== SKID STEER MACHINES ============= */
 
-
-
 #skid-steer .container .grid-container .card img {
-
-    border: 4px solid black;
+  border: 4px solid black;
+  width: 100%;
 }
-
 
 /*  =============== ******** ABOUT PAGE ************* ============= */
 
+#about {
+  position: relative;
+  background-image: url("/img/-maintenance-right-of-way-row-ROW-easement-easements-electric-electricity-electrical-water-well-hole-ditch-tank-pond-lake-creek-mesquite-clearing-youpon-clearing-concre.png");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
- #about {
-     position: relative;
-    background-image: url("/img/-maintenance-right-of-way-row-ROW-easement-easements-electric-electricity-electrical-water-well-hole-ditch-tank-pond-lake-creek-mesquite-clearing-youpon-clearing-concre.png");
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
- }
+.about-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
- .about-content {
-     height: 100%;
-     width: 100%;
-     position: absolute;
-     background-color: rgba(0, 0, 0, 0.5);
- }
+#about .about-content .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  margin: auto;
+}
 
- 
- #about .about-content  .container{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    /* align-items: center; */
-    height: 100%;
-    width: 100%;
-    /* position: absolute; */
-    margin: auto;
-
- }
- 
- #about .about-content  .container h1{
-    /* position: relative; */
-    margin: 20px;
-    display: block;
-    
- }
+#about .about-content .container h1 {
+  /* position: relative; */
+  margin: 20px;
+  display: block;
+}
 /*  
  #about .about-content  .container h1 span {
     border-bottom: 5px solid #f7c51e;
     width: 20%;
  } */
 
- #about .about-content  .container h1 span {
-    position: relative;
- }
+#about .about-content .container h1 span {
+  position: relative;
+}
 
- #about .about-content  .container h1 span::after {
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
- }
- 
- .red-block {
+#about .about-content .container h1 span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
 
-    height: 472px;
-    width: 100%;
-    background-color: red;
- }
+.red-block {
+  height: 472px;
+  width: 100%;
+  background-color: red;
+}
 
-
- /* PROJECS COMPLETED  ======================== */
+/* PROJECS COMPLETED  ======================== */
 
 #projects-completed .container .items {
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #projects-completed .container .items .item .circle {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #projects-completed .container .items .item .circle .counter {
-
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
-
- /*  Meet Our Team  ======================== */
-
-
+/*  Meet Our Team  ======================== */
 
 #meet-our-team .container h1 span {
-
-    position: relative;
-    
+  position: relative;
 }
 
 #meet-our-team .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    
-    
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-
 #meet-our-team .container .items {
-
-    display: flex;
-    
+  display: flex;
 }
 
 #meet-our-team .container .items .item img {
-
-    border:3px solid #f7c51e;
-    
+  border: 3px solid #f7c51e;
 }
 
 /*  =============== PHOTO GALLERY ============= */
 
-
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
 /*  =============== ******** CONTACTS PAGE ************* ============= */
 
-
 #contact-us {
-    position: relative;
-   background-image: url("/img/contact-us-header-Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe-dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape-road-drive-way-driveway-landscaping-sand-rock.jpg");
-   height: 500px; /* You must set a specified height */
-   background-position: center; /* Center the image */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  background-image: url("/img/contact-us-header-Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe-dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape-road-drive-way-driveway-landscaping-sand-rock.jpg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
-  
-
 
 #contact-us .about-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-#contact-us .about-content  .container{
-   display: flex;
-   flex-direction: column;
-   text-align: left;
-   justify-content: center;
-   height: 100%;
-   width: 100%;
-   margin: auto;
-
+#contact-us .about-content .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
-#contact-us .about-content  .container h1{
-   /* position: relative; */
-   margin: 20px;
-   display: block;
-   
+#contact-us .about-content .container h1 {
+  /* position: relative; */
+  margin: 20px;
+  display: block;
 }
 
 /*  
@@ -942,1055 +817,938 @@ display: grid;
    width: 20%;
 } */
 
-#contact-us .about-content  .container h1 span {
-   position: relative;
+#contact-us .about-content .container h1 span {
+  position: relative;
 }
 
-#contact-us .about-content  .container h1 span::after {
-   content: '';
-   width: 40%;
-   height: 4px;
-   background: #f7c51e;
-   position: absolute;
-   bottom: -4px;
-   left: 0;
+#contact-us .about-content .container h1 span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 #contacts-info .items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* margin: auto; */
-    left: 0;
-    right: 0;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: auto; */
+  left: 0;
+  right: 0;
 }
 
-#contacts-info .items .item{
-    padding: 0 2rem;
-    
+#contacts-info .items .item {
+  padding: 0 2rem;
 }
-
-
 
 /******* FORM *******/
 
 #contacts-info .items .contact-form {
-    flex-grow: 2;
-    
+  flex-grow: 2;
 }
 
-
-#contacts-info  .items .contact-form .form-group {
-    margin: 0.75rem;
+#contacts-info .items .contact-form .form-group {
+  margin: 0.75rem;
 }
 
-#contacts-info  .items .contact-form .form-group label {
-    display: block;
+#contacts-info .items .contact-form .form-group label {
+  display: block;
 }
 
-#contacts-info  .items .contact-form input,
-#contacts-info  .items .contact-form .form-group textarea {
-    width: 100%;
-    padding: 0.5rem;
+#contacts-info .items .contact-form input,
+#contacts-info .items .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
-
 
 /*  =============== ******** BRUSH MULCHING LAND ************* ============= */
 
-
-
-  
-
 #brush-mulching {
-    position: relative;
-    background-image: url("/img/brush-mulching-land-clearing/panicum-three-awn-spranglegrass-tickclover-sumac-wax-myrtle-Chinese-bodark-oak-elm-pin-post-blackjack-tallot.jpg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/brush-mulching-land-clearing/panicum-three-awn-spranglegrass-tickclover-sumac-wax-myrtle-Chinese-bodark-oak-elm-pin-post-blackjack-tallot.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #brush-mulching .brush-mulching-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #brush-mulching .brush-mulching-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
 #brush-mulching .brush-mulching-content .container h1 {
-    margin: 20px;
-    display: block;
+  margin: 20px;
+  display: block;
 }
 
 #brush-mulching .brush-mulching-content .container h1 span {
-
-    position: relative;
+  position: relative;
 }
 
 #brush-mulching .brush-mulching-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 /*  =============== WE CAN TAKE THIS ============= */
 
-
 #we-can-take-this .container .items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* width: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 50%; */
 }
 
 #we-can-take-this .container .items img {
-    width: 25rem;
-    height: 25rem;
-    border-style: solid;
+  width: 25rem;
+  height: 25rem;
+  border-style: solid;
   border-width: 5px;
 }
 
 /*  =============== NO BURN PILES ============= */
 
-
 #no-burn-piles .container .items {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-direction: column;
 }
 
-#no-burn-piles .container .items .item{
-    align-self: center;
+#no-burn-piles .container .items .item {
+  align-self: center;
 }
 
 #no-burn-piles .container img {
-    width: 100%;
-    /* height: 25rem; */
-    border-style: solid;
+  width: 100%;
+  /* height: 25rem; */
+  border-style: solid;
   border-width: 5px;
 }
-
 
 /*  =============== Reclaim Your Land ============= */
 
-
 #reclaim-your-land .container .items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* flex-direction: column; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: column; */
 }
-
 
 #reclaim-your-land .container .items .item {
-    align-self: center;
+  align-self: center;
 }
 
-#reclaim-your-land .container .items .item img{
-    width: 35rem;
-    height: 35rem;
-    border-style: solid;
+#reclaim-your-land .container .items .item img {
+  width: 35rem;
+  height: 35rem;
+  border-style: solid;
   border-width: 5px;
 }
-
-
 
 /*  =============== Dont Let These Guys ============= */
 
-
 #dont-let-these-guys .container .items {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  flex-direction: column;
 }
 
-
 #dont-let-these-guys .container .items .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #dont-let-these-guys .container .items .row .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    align-items: center;
-    align-content: center;
-    /* height: 100%; */
-
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: center;
+  align-content: center;
+  /* height: 100%; */
 }
-
 
 #dont-let-these-guys .container .items .row .imageBx img {
-    border-style: solid;
+  border-style: solid;
   border-width: 5px;
-
 }
-
-
-
-
-
 
 /*  =============== ******** MAPPING MEASURMENTS ************* ============= */
 
-
-
-  
-
 #mapping-measurement {
-    position: relative;
-    background-image: url("/img/mapping-measurement/Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove-Independence-Clay-Wilcox-Millican-NavasotaAnderson-Richards-Roans-Prairie  Blackjack.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/mapping-measurement/Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove-Independence-Clay-Wilcox-Millican-NavasotaAnderson-Richards-Roans-Prairie  Blackjack.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mapping-measurement .mapping-measurement-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #mapping-measurement .mapping-measurement-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
 #mapping-measurement .mapping-measurement-content .container h1 {
-    margin: 20px;
-    display: block;
+  margin: 20px;
+  display: block;
 }
 
 #mapping-measurement .mapping-measurement-content .container h1 span {
-
-    position: relative;
+  position: relative;
 }
 
 #mapping-measurement .mapping-measurement-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
-
 
 /*  =============== ******** MAPPING MEASURMENTS - END ************* ============= */
 
-
-
-
-
 /*  =============== ******** EROSION MITIGATION DRIVEWAYS ROADS ************* ============= */
 
-
-
-  
-
 #erosion-mitigation-driveways-roads {
-    position: relative;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond.jpg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#erosion-mitigation-driveways-roads .erosion-mitigation-driveways-roads-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.2);
+#erosion-mitigation-driveways-roads
+  .erosion-mitigation-driveways-roads-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-#erosion-mitigation-driveways-roads .erosion-mitigation-driveways-roads-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+#erosion-mitigation-driveways-roads
+  .erosion-mitigation-driveways-roads-content
+  .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
-#erosion-mitigation-driveways-roads .erosion-mitigation-driveways-roads-content .container h1 {
-    margin: 20px;
-    display: block;
+#erosion-mitigation-driveways-roads
+  .erosion-mitigation-driveways-roads-content
+  .container
+  h1 {
+  margin: 20px;
+  display: block;
 }
 
-#erosion-mitigation-driveways-roads .erosion-mitigation-driveways-roads-content .container h1 span {
-
-    position: relative;
+#erosion-mitigation-driveways-roads
+  .erosion-mitigation-driveways-roads-content
+  .container
+  h1
+  span {
+  position: relative;
 }
 
-#erosion-mitigation-driveways-roads .erosion-mitigation-driveways-roads-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+#erosion-mitigation-driveways-roads
+  .erosion-mitigation-driveways-roads-content
+  .container
+  h1
+  span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
 
 /*  =============== ******** MAPPING IMAGES CSS GRID - Julio CODE ************* ============= */
 
-#erosion-mapping-images .container .image-gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
-    grid-template-areas: 
-        'img-1 img-2 img-3 img-3'
-        'img-1 img-4 img-5 img-6'
-        'img-7 img-9 img-8 img-6';
+#erosion-mapping-images .container .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "img-1 img-2 img-3 img-3"
+    "img-1 img-4 img-5 img-6"
+    "img-7 img-9 img-8 img-6";
 }
 
-
-#erosion-mapping-images .container .image-gallery a{
-    width: 100%;
-    height: 25rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+#erosion-mapping-images .container .image-gallery a {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
-#erosion-mapping-images .container .image-gallery a ion-icon{
-    color: rgba(255, 255, 255, .6);
-    font-size: 3rem;
-    position: relative;
-    padding: 1rem 3rem;
-    border: 2px solid rgba(255, 255, 255, .6);
-    border-radius: .4rem;
-    opacity: 0;
-    transition: opacity .5s;
-    
+#erosion-mapping-images .container .image-gallery a ion-icon {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 3rem;
+  position: relative;
+  padding: 1rem 3rem;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.4rem;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
-#erosion-mapping-images .container .image-gallery a::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .8);
-    opacity: 0;
-    transition: opacity .5s;
+#erosion-mapping-images .container .image-gallery a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s;
 }
-
 
 #erosion-mapping-images .container .image-gallery a:hover ion-icon,
-#erosion-mapping-images .container .image-gallery a:hover::before{
-    opacity: 1;
+#erosion-mapping-images .container .image-gallery a:hover::before {
+  opacity: 1;
 }
 
-
-#erosion-mapping-images .container .image-gallery .img-1{
-    grid-area: img-1;
-    min-height: 51.5rem;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond.jpg");
+#erosion-mapping-images .container .image-gallery .img-1 {
+  grid-area: img-1;
+  min-height: 51.5rem;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond.jpg");
 }
 
-.img-2{
-    grid-area: img-2;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/cipping-chipped-mowing-forest-tree-removal-homesite-home-site-prep-preparation-clean.jpg");
+.img-2 {
+  grid-area: img-2;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/cipping-chipped-mowing-forest-tree-removal-homesite-home-site-prep-preparation-clean.jpg");
 }
 
-.img-3{
-    grid-area: img-3;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/cleaning-equipment-heavy-trucking-truck-trailer-tools-Improvements-maintenance-right-of-way-row.jpg");
+.img-3 {
+  grid-area: img-3;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/cleaning-equipment-heavy-trucking-truck-trailer-tools-Improvements-maintenance-right-of-way-row.jpg");
 }
 
-.img-4{
-    grid-area: img-4;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop.jpg");
+.img-4 {
+  grid-area: img-4;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop.jpg");
 }
 
-.img-5{
-    grid-area: img-5;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Hogg-Dimebox-Lincoln-Warda.jpg");
+.img-5 {
+  grid-area: img-5;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Hogg-Dimebox-Lincoln-Warda.jpg");
 }
 
-.img-6{
-    grid-area: img-6;
-    min-height: 51.5rem;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Taylor-North-Zulch-Normangee-Coupland-Elgin-Bartlett-Temple-Hutto-Bremond.jpg");
+.img-6 {
+  grid-area: img-6;
+  min-height: 51.5rem;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Taylor-North-Zulch-Normangee-Coupland-Elgin-Bartlett-Temple-Hutto-Bremond.jpg");
 }
 
-.img-7{
-    grid-area: img-7;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond-Gainger-Taylor-North-Zulch.jpg");
+.img-7 {
+  grid-area: img-7;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-Ledbetter-Bremond-Gainger-Taylor-North-Zulch.jpg");
 }
 
-.img-8{
-    grid-area: img-8;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/NavasotaAnderson-Richards-Roans-Prairie  Blackjack-Deanville.jpg");
+.img-8 {
+  grid-area: img-8;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/NavasotaAnderson-Richards-Roans-Prairie  Blackjack-Deanville.jpg");
 }
 
-.img-9{
-    grid-area: img-9;
-    background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/New-Steep-Hollow-Mumfors-Astin-Junction-Branchville-Gause Calvert.jpg");
+.img-9 {
+  grid-area: img-9;
+  background-image: url("/img/erosion-mitigation-driveways-roads/Erosion-Mitigation-photo-gallery/New-Steep-Hollow-Mumfors-Astin-Junction-Branchville-Gause Calvert.jpg");
 }
-
-
 
 /* TERRACES FOR EROSION - FLEXBOX - LEFT RIGHT CONTENT */
 
-
 #terraces-for-erosion .container .items {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-
 
 #terraces-for-erosion .container .items .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 
 #terraces-for-erosion .container .items .row .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    align-items: center;
-    align-content: center;
-    /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: center;
+  align-content: center;
+  /* height: 100%; */
 }
 
-
-
 #terraces-for-erosion .container .items .row .imageBx img {
-    border-style: solid;
+  border-style: solid;
   border-width: 5px;
   width: 30rem;
 }
 
 /* =========== BELOW ARE TWO EXAMPLES =============== */
 
-#below-two-examples .container .items  {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+#below-two-examples .container .items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 
-#below-two-examples .container .items .item   {
-    /* display: flex; */
-    /* flex-direction: column; */
-    justify-content: center;
-    margin: auto;
-   /* align-self: auto; */
+#below-two-examples .container .items .item {
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: auto;
+  /* align-self: auto; */
 }
 
-#below-two-examples .container .items .item:nth-child(3n) .before-after-images    {
-   display: flex;
-   flex-wrap: wrap;
-
+#below-two-examples .container .items .item:nth-child(3n) .before-after-images {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-
-
-
-
 
 /*  =============== ******** LANDSCAPING DRAINAGE MANAGEMENT ************* ============= */
 
-
-
 /*  ******** HEADER IMAGE - START *************  */
-  
 
 #landscaping-drainage-Management {
-    position: relative;
-    background-image: url("/img/landscaping-drainage-Management/Landscaping-Land-Lot-clearing-clearing-dozer-excavator.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/landscaping-drainage-Management/Landscaping-Land-Lot-clearing-clearing-dozer-excavator.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #landscaping-drainage-Management .landscaping-drainage-Management-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-#landscaping-drainage-Management .landscaping-drainage-Management-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+#landscaping-drainage-Management
+  .landscaping-drainage-Management-content
+  .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
-#landscaping-drainage-Management .landscaping-drainage-Management-content .container h1 {
-    margin: 20px;
-    display: block;
+#landscaping-drainage-Management
+  .landscaping-drainage-Management-content
+  .container
+  h1 {
+  margin: 20px;
+  display: block;
 }
 
-#landscaping-drainage-Management .landscaping-drainage-Management-content .container h1 span {
-
-    position: relative;
+#landscaping-drainage-Management
+  .landscaping-drainage-Management-content
+  .container
+  h1
+  span {
+  position: relative;
 }
 
-#landscaping-drainage-Management .landscaping-drainage-Management-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+#landscaping-drainage-Management
+  .landscaping-drainage-Management-content
+  .container
+  h1
+  span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
-
 
 /*  ******** HEADER IMAGE - START *************  */
-
-
 
 /* =========== Drainage Cause Foundation Problems =============== */
 
 #drainage-cause-foundation-problems .container .items {
-
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
 }
 
-#drainage-cause-foundation-problems .container .items .item  {
-    /* position: relative; */
-    max-width: 33.3333%;
-    min-width: 25rem;
-    height: 25rem;
-    /* overflow: hidden; */
-    /* object-fit: cover; */
-    /* object-fit: cover; */
+#drainage-cause-foundation-problems .container .items .item {
+  /* position: relative; */
+  max-width: 33.3333%;
+  min-width: 25rem;
+  height: 25rem;
+  /* overflow: hidden; */
+  /* object-fit: cover; */
+  /* object-fit: cover; */
 }
 
 #drainage-cause-foundation-problems .container .items .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-
 
 /* =========== GENERAL DIRT WORK TANK POND TRENCHING =============== */
 
-
-
-
-
-
-
 /*  ******** HEADER IMAGE - START *************  */
-  
 
 #general-dirt-ork-tank-pond-trenching {
-    position: relative;
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#general-dirt-ork-tank-pond-trenching .general-dirt-ork-tank-pond-trenching-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.2);
+#general-dirt-ork-tank-pond-trenching
+  .general-dirt-ork-tank-pond-trenching-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-#general-dirt-ork-tank-pond-trenching .general-dirt-ork-tank-pond-trenching-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+#general-dirt-ork-tank-pond-trenching
+  .general-dirt-ork-tank-pond-trenching-content
+  .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
-#general-dirt-ork-tank-pond-trenching .general-dirt-ork-tank-pond-trenching-content .container h1 {
-    margin: 20px;
-    display: block;
+#general-dirt-ork-tank-pond-trenching
+  .general-dirt-ork-tank-pond-trenching-content
+  .container
+  h1 {
+  margin: 20px;
+  display: block;
 }
 
-#general-dirt-ork-tank-pond-trenching .general-dirt-ork-tank-pond-trenching-content .container h1 span {
-
-    position: relative;
+#general-dirt-ork-tank-pond-trenching
+  .general-dirt-ork-tank-pond-trenching-content
+  .container
+  h1
+  span {
+  position: relative;
 }
 
-#general-dirt-ork-tank-pond-trenching .general-dirt-ork-tank-pond-trenching-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+#general-dirt-ork-tank-pond-trenching
+  .general-dirt-ork-tank-pond-trenching-content
+  .container
+  h1
+  span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
-
 
 /*  ******** HEADER IMAGE - END *************  */
-
-
 
 /*  =============== General Dirt Work GRID PHOTO GALLERY ============= */
 
-
 .dirt-work-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 1rem;
-    grid-auto-flow: dense;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 1rem;
 }
-
 
 .dirt-work-gallery .box {
-    background-color: #ccc;
-    background-size: cover;
+  background-color: #ccc;
+  background-size: cover;
 }
-
 
 .dirt-work-gallery .box:after {
-    content: '';
-    display: block;
-    padding-top: calc(100% / (16/10));
-  }
-
-
-
-    #mapping-images  .dirt-work-gallery .box:nth-child(1) {
-    
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape.png");
-  }
-
-  #mapping-images  .dirt-work-gallery .box:nth-child(2) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(3) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove.jpg");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(4) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Jones-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.jpg");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(5) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-tank-pond-Verde-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor-Manheim-Page-Hills-Serbin-Camp-Swift-Mcdade-Alum-Creek.jpg");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(6) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe.png");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(7) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/pond-clearing-general-dirt-work-Upton-Winchester-Ledbetter-Waldeck-Carmine-Roundtop-Warrenton.jpg");
-  }
-  #mapping-images  .dirt-work-gallery .box:nth-child(8) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
-  }
-
-
-  /*  =============== Grid Electrical Work PHOTO GALLERY ============= */
-
-
-  
-
-/*  ******** HEADER IMAGE - START *************  */
-  
-
-#demolition-clean-up {
-    position: relative;
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 10));
 }
 
-#demolition-clean-up .l-heading {
-    font-size: 3rem;
+#mapping-images .dirt-work-gallery .box:nth-child(1) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/dirt-work-grading-grade-mobile-home-mobilehome-modular-manufactured-landscape.png");
 }
 
-#demolition-clean-up .demolition-clean-up-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.4);
+#mapping-images .dirt-work-gallery .box:nth-child(2) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
 }
-
-#demolition-clean-up .demolition-clean-up-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+#mapping-images .dirt-work-gallery .box:nth-child(3) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Franklin-Cookspoint-Smithville-Giddings-Zionville-Bastrop-Fedor-Forest-Grove.jpg");
 }
-
-
-#demolition-clean-up .demolition-clean-up-content .container h1 {
-    margin: 20px;
-    display: block;
+#mapping-images .dirt-work-gallery .box:nth-child(4) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Jones-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.jpg");
 }
-
-#demolition-clean-up .demolition-clean-up-content .container h1 span {
-
-    position: relative;
+#mapping-images .dirt-work-gallery .box:nth-child(5) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-tank-pond-Verde-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor-Manheim-Page-Hills-Serbin-Camp-Swift-Mcdade-Alum-Creek.jpg");
 }
-
-#demolition-clean-up .demolition-clean-up-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+#mapping-images .dirt-work-gallery .box:nth-child(6) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe.png");
 }
-
-
-/*  ******** HEADER IMAGE - END *************  */
-
-
-
-
+#mapping-images .dirt-work-gallery .box:nth-child(7) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/pond-clearing-general-dirt-work-Upton-Winchester-Ledbetter-Waldeck-Carmine-Roundtop-Warrenton.jpg");
+}
+#mapping-images .dirt-work-gallery .box:nth-child(8) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
+}
 
 /*  =============== Grid Electrical Work PHOTO GALLERY ============= */
 
+/*  ******** HEADER IMAGE - START *************  */
 
+#demolition-clean-up {
+  position: relative;
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-#electrical-lines-grid  .dirt-work-gallery .box:nth-child(1) {
-    
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-_Swift-Mcdade-Alum-Creek-Upton-Winchester-Ledbetter-Waldeck-3.png");
-  }
+#demolition-clean-up .l-heading {
+  font-size: 3rem;
+}
 
-  #electrical-lines-grid  .dirt-work-gallery .box:nth-child(2) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.png");
-  }
-  #electrical-lines-grid  .dirt-work-gallery .box:nth-child(3) {
-    background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor.png");
-  }
+#demolition-clean-up .demolition-clean-up-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
-  /*  =============== DEMOLITION CLEAN UP ============= */
+#demolition-clean-up .demolition-clean-up-content .container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+#demolition-clean-up .demolition-clean-up-content .container h1 {
+  margin: 20px;
+  display: block;
+}
+
+#demolition-clean-up .demolition-clean-up-content .container h1 span {
+  position: relative;
+}
+
+#demolition-clean-up .demolition-clean-up-content .container h1 span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+/*  ******** HEADER IMAGE - END *************  */
+
+/*  =============== Grid Electrical Work PHOTO GALLERY ============= */
+
+#electrical-lines-grid .dirt-work-gallery .box:nth-child(1) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-_Swift-Mcdade-Alum-Creek-Upton-Winchester-Ledbetter-Waldeck-3.png");
+}
+
+#electrical-lines-grid .dirt-work-gallery .box:nth-child(2) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-Prarie-Maysfield-Ben-Arnold-Burlington-Clarkson-Yarrelton-Buckholts-Sharp.png");
+}
+#electrical-lines-grid .dirt-work-gallery .box:nth-child(3) {
+  background-image: url("/img/general-dirt-work-tank-pond-trenching/Water-Electrical-Lines/water-electrical-lines-trenching-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor.png");
+}
+
+/*  =============== DEMOLITION CLEAN UP ============= */
 
 #demolition-images .l-heading {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
-
-
-
-  
 /*  =============== DEMOLITION CLEAN UP - GRID PHOTO GALLERY ============= */
 
-
 .demolition-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 1rem;
-    grid-auto-flow: dense;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+  padding: 1rem;
 }
-
 
 .demolition-gallery .box {
-    background-color: #ccc;
-    background-size: cover;
+  background-color: #ccc;
+  background-size: cover;
 }
 
-
 .demolition-gallery .box:after {
-    content: '';
-    display: block;
-    padding-top: calc(100% / (16/10));
-  }
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 10));
+}
 
+.demolition-gallery .box:nth-child(1) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-6.png");
+}
 
+.demolition-gallery .box:nth-child(2) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-Ledbetter-Bremond-Gainger-Taylor-2.png");
+}
+.demolition-gallery .box:nth-child(3) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-North-Zulch-Normangee-Coupland-Elgin-Bartlett-Temple-Hutto-3.png");
+}
+.demolition-gallery .box:nth-child(4) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-trash-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-.png");
+}
+.demolition-gallery .box:nth-child(5) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-.png");
+}
+.demolition-gallery .box:nth-child(6) {
+  background-image: url("/img/demolition-clean-up/demolition-clean-up-Wilcox-Millican-NavasotaAnderson-Richards-Roans-Prairie\ \ Blackjack.png");
+}
 
-      .demolition-gallery .box:nth-child(1) {
-    
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-6.png");
-  }
-
-    .demolition-gallery .box:nth-child(2) {
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-Ledbetter-Bremond-Gainger-Taylor-2.png");
-  }
-    .demolition-gallery .box:nth-child(3) {
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-North-Zulch-Normangee-Coupland-Elgin-Bartlett-Temple-Hutto-3.png");
-  }
-    .demolition-gallery .box:nth-child(4) {
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-trash-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-.png");
-  }
-    .demolition-gallery .box:nth-child(5) {
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-Warrenton-Nechanitz-Phillipsburg-Kenny-Bleiberville-Winedale-.png");
-  }
-    .demolition-gallery .box:nth-child(6) {
-    background-image: url("/img/demolition-clean-up/demolition-clean-up-Wilcox-Millican-NavasotaAnderson-Richards-Roans-Prairie\ \ Blackjack.png");
-  }
-  
-
-
-
-  /*  =============== Foundation & Pads ============= */
-
-
-  
+/*  =============== Foundation & Pads ============= */
 
 /*  ******** HEADER IMAGE - START *************  */
-  
 
 #foundations-pads-header-image {
-    position: relative;
-    background-image: url("/img/foundation-pads/foundation-pads-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay.png");
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: relative;
+  background-image: url("/img/foundation-pads/foundation-pads-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #foundations-pads-header-image .l-heading {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #foundations-pads-header-image .foundations-pads-content {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #foundations-pads-header-image .foundations-pads-content .container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
-
 #foundations-pads-header-image .foundations-pads-content .container h1 {
-    margin: 20px;
-    display: block;
+  margin: 20px;
+  display: block;
 }
 
 #foundations-pads-header-image .foundations-pads-content .container h1 span {
-
-    position: relative;
+  position: relative;
 }
 
-#foundations-pads-header-image .foundations-pads-content .container h1 span::after {
-
-    content: '';
-    width: 40%;
-    height: 4px;
-    background: #f7c51e;
-    position: absolute;
-    bottom: -4px;
-    left: 0;
+#foundations-pads-header-image
+  .foundations-pads-content
+  .container
+  h1
+  span::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background: #f7c51e;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
-
 
 /*  ******** HEADER IMAGE - END *************  */
 
 #foundations-pads .items {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-
 #foundations-pads .items .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: red; */
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: red; */
 }
 
 #foundations-pads .items .row .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    align-items: center;
-    align-content: center;
-
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: center;
+  align-content: center;
 }
 
-
-#foundations-pads .items .row .imageBx  {
-    /* order: 2; */
-    max-width: 50%;
-
+#foundations-pads .items .row .imageBx {
+  /* order: 2; */
+  max-width: 50%;
 }
 
-  /*  =============== Foundation & Pads ============= */
+/*  =============== Foundation & Pads ============= */
 
-    #service-list .container {
-        display: flex;
-        flex-direction: column;
-        /* background: red; */
-    }
-    
-    #service-list .container a {
-        color: #f7c51e;
-        font-weight: bold;
-        line-height: 2rem;
-    }
+#service-list .container {
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+}
 
-
+#service-list .container a {
+  color: #f7c51e;
+  font-weight: bold;
+  line-height: 2rem;
+}
 
 /*  =============== FOOTER - (BOTTOM BLACK) ============= */
 
-
-.wrap    { 
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }  
-
-
-#main-footer  .items {
-    display: flex;
-    justify-content: space-evenly;
-   
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-#main-footer  .items .item{
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    max-width: 250px;
-    color: white;
-
+#main-footer .items {
+  display: flex;
+  justify-content: space-evenly;
 }
 
+#main-footer .items .item {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  max-width: 250px;
+  color: white;
+}
 
+#main-footer .items .item .email a {
+  color: #f7c51e;
+  text-decoration: none;
+}
 
- 
+#main-footer .items .item .email a {
+  color: #f7c51e;
+  text-decoration: none;
+}
 
-#main-footer  .items .item .email a{
-    color: #f7c51e;
-    text-decoration: none;
+#main-footer .items .item .phone-number {
+  display: flex;
+  align-items: center;
 }
- 
 
-#main-footer  .items .item .email a{
-    color: #f7c51e;
-    text-decoration: none;
+#main-footer .items .item .phone-number i {
+  margin-right: 0.25rem;
 }
- 
 
-#main-footer  .items .item .phone-number {
-    display: flex;
-    align-items: center;
+#main-footer .items .item .phone-number a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
 }
- 
-#main-footer  .items .item .phone-number i{
-    margin-right: .25rem;
-    
-}
- 
-#main-footer  .items .item .phone-number a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
- 
-#main-footer  .items .item a {
-    color: white;
 
+#main-footer .items .item a {
+  color: white;
 }
- 
-#main-footer  .items .item .facebook-like {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    
+
+#main-footer .items .item .facebook-like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
- 
- 
+
 /* 
 #main-footer  .items .item .facebook-like h3{
     margin-bottom: .25rem;
 }
   */
 
-
-
-#main-footer  .items .item .facebook-like i{
-    /* color: #f7c51e; */
-    text-decoration: none;
-    font-size: 1.5rem;
-    align-self: center;
+#main-footer .items .item .facebook-like i {
+  /* color: #f7c51e; */
+  text-decoration: none;
+  font-size: 1.5rem;
+  align-self: center;
 }
-  
-
 
 /*  
  
