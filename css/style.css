@@ -1456,15 +1456,16 @@ p {
 #mapping-images .dirt-work-gallery .box:nth-child(5) {
   background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-tank-pond-Verde-San-Gabriel-Laneport-Detmold-Thorndale-Thrall-Noack-Adina-Blue-Fedor-Manheim-Page-Hills-Serbin-Camp-Swift-Mcdade-Alum-Creek.jpg");
 }
-#mapping-images .dirt-work-gallery .box:nth-child(6) {
+#mapping-images .dirt-work-gallery .box:nth-child(7) {
   background-image: url("/img/general-dirt-work-tank-pond-trenching/Land-Lot-clearing-clearing-dozer-excavator-skid-steer-skidsteer-bucket-backhoe.png");
 }
-#mapping-images .dirt-work-gallery .box:nth-child(7) {
+#mapping-images .dirt-work-gallery .box:nth-child(6) {
   background-image: url("/img/general-dirt-work-tank-pond-trenching/pond-clearing-general-dirt-work-Upton-Winchester-Ledbetter-Waldeck-Carmine-Roundtop-Warrenton.jpg");
 }
-#mapping-images .dirt-work-gallery .box:nth-child(8) {
+
+/* #mapping-images .dirt-work-gallery .box:nth-child(8) {
   background-image: url("/img/general-dirt-work-tank-pond-trenching/general-dirt-work-Caldwell-Snook-Lyons-Milano-Brenham-Burton-Union-Hill-Gay-Quarry-Bryan-CollegeStation-Hogg-Dimebox-Lincoln-Warda.jpg");
-}
+} */
 
 /*  =============== Grid Electrical Work PHOTO GALLERY ============= */
 
@@ -1756,3 +1757,25 @@ p {
     color: #363636;
 
 }  */
+
+
+/*  =============== VIDEOS WEBSITE ============= */
+
+
+#video-gallery .container {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  justify-items: center;
+  grid-gap: 10px;
+  grid-row-gap: 5px;
+  margin: 1rem;
+}
+
+#video-gallery .container .facebook-responsive {
+
+  overflow:hidden;
+  /* padding-bottom:56.25%; */
+  /* position:relative; */
+  /* height:0; */
+}
