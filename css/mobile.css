@@ -299,7 +299,38 @@
       flex: 50%;
       max-width: 50%;
    }
+
+
+   /* ========================== VIDEO ===================== */
    
+   .container{
+      display: block;
+  }
+  .facebook-responsive{
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem; 
+  }
+
+  .facebook-responsive:first-child iframe{
+      height: 314px;
+  }
+
+
+  .facebook-responsive:nth-child(2) iframe,
+  .facebook-responsive:nth-child(3) iframe,
+  .facebook-responsive:nth-child(4) iframe,
+  .facebook-responsive:nth-child(5) iframe,
+  .facebook-responsive:nth-child(6) iframe {
+      height: 476px;
+  }
+
+
+  
+
+
+
+
    /* ========================== MAIN FOOTER BOTTOM ===================== */
 
    #main-footer .items .item:nth-of-type(4) {
