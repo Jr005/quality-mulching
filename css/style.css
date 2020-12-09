@@ -1751,6 +1751,11 @@ p {
   align-self: center;
 }
 
+#main-footer .website-link a {
+  /* color: #f7c51e; */
+  color: #f7c51e;
+}
+
 /*  
  
 #main-footer .container .items .item:first-of-type p{
